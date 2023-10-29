@@ -1,12 +1,15 @@
 :root {
   /* Colors */
-  --color-space-dark: #232a42;
-  --color-space-darker: #11141e;
-  --color-snow-white: white;
-  --color-honey-yellow: #ffdc24;
+  --color-space-dark: rgb(35, 43, 67);
+  --color-space-darker: rgb(29, 33, 49);
+  --color-snow-white: rgb(255, 255, 255);
+  --color-honey-yellow: rgb(255, 220, 36);
 
   /* Sizes */
   --main-container: 900px;
+
+  /* Helpers */
+  --border-radius: 5px;
 }
 
 html,
