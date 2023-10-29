@@ -10,7 +10,7 @@
 .stats > a > img {
   width: auto;
   height: 70px;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   z-index: 10;
   position: relative;
   transition: all 0.3s;
@@ -21,8 +21,8 @@
 }
 
 .stats > a:before {
-  background: #11141e;
-  border-radius: 5px;
+  background: var(--color-space-darker);
+  border-radius: var(--border-radius);
   content: "";
   height: 70px;
   margin-left: -10px;
@@ -55,12 +55,12 @@
   width: 100%;
   height: 15px;
   border: 2px solid white;
-  border-radius: 10px;
+  border-radius: var(--border-radius);
 }
 
 .indicators > .experience > progress::-webkit-progress-bar {
   background-color: rgba(255, 220, 36, 0.2);
-  border-radius: 10px;
+  border-radius: var(--border-radius);
 }
 .indicators > .experience > progress::-webkit-progress-value {
   background-color: var(--color-honey-yellow);
