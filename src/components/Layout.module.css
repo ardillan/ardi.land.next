@@ -1,0 +1,8 @@
+.container {
+  font-family: var(--inter-font);
+  margin: auto;
+  width: var(--main-container);
+  padding: 0 2rem;
+  outline: 2px dashed #86863e;
+  outline-offset: -2px;
+}

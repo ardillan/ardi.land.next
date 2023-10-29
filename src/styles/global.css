@@ -1,0 +1,29 @@
+:root {
+  /* Colors */
+  --color-space-dark: #232a42;
+  --color-space-darker: #11141e;
+  --color-snow-white: white;
+  --color-honey-yellow: #ffdc24;
+
+  /* Sizes */
+  --main-container: 900px;
+}
+
+html,
+body {
+  background: var(--color-space-dark);
+  padding: 0;
+  margin: 0;
+  font-family: var(--inter-font), -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+  color: white;
+}
+
+img {
+  /* width: 100% !important;
+  height: auto !important;
+  position: relative !important; */
+}

@@ -1,0 +1,69 @@
+.stats {
+  display: flex;
+  gap: 15px;
+}
+
+.stats a:hover {
+  cursor: pointer;
+}
+
+.stats > a > img {
+  width: auto;
+  height: 70px;
+  border-radius: 5px;
+  z-index: 10;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.stats > a > img:hover {
+  transform: rotate(-2deg);
+}
+
+.stats > a:before {
+  background: #11141e;
+  border-radius: 5px;
+  content: "";
+  height: 70px;
+  margin-left: -10px;
+  margin-top: 10px;
+  position: absolute;
+  transform: rotate(85deg);
+  transition: all 0.3s;
+  width: 70px;
+}
+
+.stats > a:hover:before {
+  margin-left: -5px;
+  margin-top: 5px;
+  transform: rotate(90deg);
+}
+
+.indicators {
+  display: flex;
+  flex-direction: column;
+}
+.indicators > .hearts {
+  display: flex;
+  gap: 10px;
+}
+
+.indicators > .experience {
+}
+
+.indicators > .experience > progress {
+  width: 100%;
+  height: 15px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.indicators > .experience > progress::-webkit-progress-bar {
+  background-color: rgba(255, 220, 36, 0.2);
+  border-radius: 10px;
+}
+.indicators > .experience > progress::-webkit-progress-value {
+  background-color: var(--color-honey-yellow);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
