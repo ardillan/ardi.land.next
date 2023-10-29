@@ -1,10 +1,13 @@
 import React from "react";
 
-const Blog = () => {
+import Head from "next/head";
+import Layout from "@/components/Layout";
+
+const Blog = (): JSX.Element => {
   return (
-    <>
-      <h1>Blog</h1>
-    </>
+    <Layout>
+      <h1>Mi Blog</h1>
+    </Layout>
   );
 };
 
