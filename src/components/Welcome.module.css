@@ -1,0 +1,11 @@
+/* .welcome {
+  color: green;
+} */
+
+.welcome > p > span {
+  color: green;
+}
+
+.welcome p:nth-child(1) > span {
+  color: red;
+}
