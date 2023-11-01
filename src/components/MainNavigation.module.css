@@ -17,7 +17,7 @@
 }
 
 .items > li > a {
-  color: var(--color-snow-white);
+  color: rgba(var(--color-snow-white));
   font-size: clamp(20px, 2vw, 20px);
   text-decoration: none;
   text-transform: uppercase;
@@ -26,10 +26,10 @@
 }
 
 .items > li > a.active {
-  color: var(--color-honey-yellow);
+  color: rgba(var(--color-honey-yellow));
 }
 
 .items > li > a:hover {
-  color: var(--color-honey-yellow);
+  color: rgba(var(--color-honey-yellow));
   transition: 0.3s;
 }

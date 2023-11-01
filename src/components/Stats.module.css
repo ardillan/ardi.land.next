@@ -21,7 +21,7 @@
 }
 
 .stats > a:before {
-  background: var(--color-space-darker);
+  background: rgba(var(--color-space-darker));
   border-radius: var(--border-radius);
   content: "";
   height: 70px;
@@ -55,7 +55,8 @@
   width: 100%;
   height: 15px;
   border: 2px solid white;
-  border-radius: var(--border-radius);
+  /* border-radius: var(--border-radius); */
+  border-radius: calc(var(--border-radius) * 5);
 }
 
 .indicators > .experience > progress::-webkit-progress-bar {
@@ -63,7 +64,7 @@
   border-radius: var(--border-radius);
 }
 .indicators > .experience > progress::-webkit-progress-value {
-  background-color: var(--color-honey-yellow);
+  background-color: rgba(var(--color-honey-yellow));
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }

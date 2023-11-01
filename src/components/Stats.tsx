@@ -9,7 +9,6 @@ const Stats = (): JSX.Element => {
   const hearts = [1, 2, 3, 4];
   const experience = getExperience(new Date("1988-08-23"));
   // const experience = calcularDias(new Date("1988-07-18"));
-  console.log("✅", experience);
   return (
     <div className={styles.stats}>
       <Link href="/">

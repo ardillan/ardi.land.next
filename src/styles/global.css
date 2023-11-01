@@ -1,20 +1,24 @@
 :root {
   /* Colors */
-  --color-space-dark: rgb(35, 43, 67);
-  --color-space-darker: rgb(29, 33, 49);
-  --color-snow-white: rgb(255, 255, 255);
-  --color-honey-yellow: rgb(255, 220, 36);
+  --color-space-dark: 35, 43, 67;
+  --color-space-darker: 29, 33, 49;
+  --color-snow-white: 255, 255, 255;
+  --color-honey-yellow: 255, 220, 36;
+  --color-calm-blue: 113 203 243;
 
   /* Sizes */
   --main-container: 900px;
 
-  /* Helpers */
+  /* Radius */
   --border-radius: 5px;
+
+  /* Shadows */
+  --box-shadow-default: 0 5px 5px rgb(13 20 37), 0 10px 10px rgba(0, 0, 0, 0.23);
 }
 
 html,
 body {
-  background: var(--color-space-dark);
+  background: rgba(var(--color-space-dark));
   padding: 0;
   margin: 0;
   font-family: var(--inter-font), -apple-system, BlinkMacSystemFont, Segoe UI,

@@ -14,9 +14,9 @@
 }
 
 .welcome p span:nth-child(1) {
-  color: var(--color-calm-blue);
+  color: rgba(var(--color-calm-blue));
 }
 
 .welcome p span:nth-child(2) {
-  color: var(--color-honey-yellow);
+  color: rgba(var(--color-honey-yellow));
 }
