@@ -2,10 +2,21 @@
   color: green;
 } */
 
-.welcome > p > span {
-  color: green;
+.welcome > p {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--fraiche-font);
+  font-size: 5rem;
+  justify-content: unset;
+  line-height: 5rem;
+  padding: 5rem 0;
 }
 
-.welcome p:nth-child(1) > span {
-  color: red;
+.welcome p span:nth-child(1) {
+  color: var(--color-calm-blue);
+}
+
+.welcome p span:nth-child(2) {
+  color: var(--color-honey-yellow);
 }
