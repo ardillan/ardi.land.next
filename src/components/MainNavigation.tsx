@@ -25,10 +25,6 @@ const NAVIGATION: Array<INavigationLink> = [
 const MainNavigation = (): JSX.Element => {
   const router = useRouter();
 
-  NAVIGATION.map((value) => {
-    console.log("router.pathname", router.pathname.includes(value.path));
-  });
-
   return (
     <nav className={styles.container}>
       <Stats />
