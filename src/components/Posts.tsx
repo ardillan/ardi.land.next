@@ -11,10 +11,12 @@ const Posts = ({ allPostsData }): JSX.Element => {
       {allPostsData.map((post: { id: number; date: string; title: string }) => {
         return (
           <li key={post.id}>
-            <Link href={`/blog/${post.id}`}>{post.title}</Link>
-            <small>
-              <Date dateString={post.date} />
-            </small>
+            <Link href={`/blog/${post.id}`}>
+              {post.title}
+              <small>
+                <Date dateString={post.date} />
+              </small>
+            </Link>
           </li>
         );
       })}
