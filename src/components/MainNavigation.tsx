@@ -13,6 +13,10 @@ export type INavigationLink = {
 
 const NAVIGATION: Array<INavigationLink> = [
   {
+    title: "Inicio",
+    path: "/",
+  },
+  {
     title: "Espacios",
     path: "/espacios",
   },
@@ -25,6 +29,7 @@ const NAVIGATION: Array<INavigationLink> = [
 const MainNavigation = (): JSX.Element => {
   const router = useRouter();
 
+  console.log("router.pathname");
   return (
     <nav className={styles.container}>
       <Stats />
@@ -32,9 +37,7 @@ const MainNavigation = (): JSX.Element => {
         {NAVIGATION.map((link) => (
           <li key={link.title}>
             <Link
-              className={
-                router.pathname.includes(link.path) ? styles.active : ""
-              }
+              className={router.pathname === link.path ? styles.active : ""}
               href={link.path}
             >
               {link.title}
