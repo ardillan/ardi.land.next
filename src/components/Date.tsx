@@ -1,5 +1,6 @@
 import { parseISO, format } from "date-fns";
 import styles from "./Date.module.css";
+import { formatDate } from "@/lib/helpers";
 
 export default function Date(dateObject: { dateString: string }): JSX.Element {
   const { dateString } = dateObject;
@@ -8,7 +9,7 @@ export default function Date(dateObject: { dateString: string }): JSX.Element {
 
   return (
     <time className={styles.date} dateTime={dateString}>
-      {format(date, "LLLL d, yyyy")}
+      {formatDate(dateString, "readable")}
     </time>
   );
 }
