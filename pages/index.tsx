@@ -3,8 +3,9 @@ import Head from "next/head";
 import Layout, { siteTitle } from "@/components/Layout";
 import Welcome from "@/components/Welcome";
 
-import { getSortedPostsData } from "../src/lib/posts";
-import Posts from "@/componentsPosts";
+import { getSortedPostsData } from "@/lib/posts";
+import Posts from "@/components/Posts";
+import Footer from "@/components/Footer";
 
 export default function Home({ allPostsData }): JSX.Element {
   return (
@@ -14,6 +15,7 @@ export default function Home({ allPostsData }): JSX.Element {
       </Head>
       <Welcome />
       <Posts allPostsData={allPostsData} />
+      <Footer />
     </Layout>
   );
 }
