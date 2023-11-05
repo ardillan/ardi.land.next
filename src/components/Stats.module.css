@@ -39,16 +39,25 @@
   transform: rotate(90deg);
 }
 
-.indicators {
+.stats > .indicators {
   display: flex;
   flex-direction: column;
 }
-.indicators > .hearts {
+
+.stats > .indicators > .hearts {
   display: flex;
+  gap: 10px;
+  height: 20px;
+}
+
+.stats > .indicators > .info {
+  display: flex;
+  flex-wrap: nowrap;
   gap: 10px;
 }
 
-.indicators > .experience {
+.stats .honeyYellow {
+  color: rgba(var(--color-honey-yellow));
 }
 
 .indicators > .experience > progress {

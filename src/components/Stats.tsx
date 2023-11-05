@@ -3,12 +3,13 @@ import React from "react";
 
 import styles from "./Stats.module.css";
 
-import { getExperience } from "@/lib/getExperience";
+import { getExperience, getAge } from "@/lib/helpers";
 
 const Stats = (): JSX.Element => {
+  const age = getAge();
   const hearts = [1, 2, 3, 4];
   const experience = getExperience(new Date("1988-08-23"));
-  // const experience = calcularDias(new Date("1988-07-18"));
+
   return (
     <div className={styles.stats}>
       <Link href="/">
@@ -31,12 +32,16 @@ const Stats = (): JSX.Element => {
         <div className={styles.experience}>
           <progress id="file" value={experience} max="365" />
         </div>
+        <div className={styles.info}>
+          <p>
+            LV.<span className={styles.honeyYellow}>{age}</span> EXP.
+            {experience}
+            <span className={styles.honeyYellow}>/</span>365
+          </p>
+        </div>
       </div>
     </div>
   );
 };
 
 export default Stats;
-function calcularDiasHastaProximoCumpleaños(arg0: Date) {
-  throw new Error("Function not implemented.");
-}
