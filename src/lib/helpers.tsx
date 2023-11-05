@@ -34,3 +34,31 @@ export const formatDate = (
       });
   }
 };
+
+export const getAge = (): number => {
+  let birthDay: Date = new Date("Aug 23 1988 13:50:00 GMT+0200 (CEST)");
+  let today: Date = new Date();
+  let ageDate = new Date(today - birthDay);
+  return Math.abs(ageDate.getUTCFullYear() - 1970);
+};
+
+export const getExperience = (birthDate: Date): number => {
+  const today = new Date();
+  const nextBirthDay = new Date(
+    today.getFullYear(),
+    birthDate.getMonth(),
+    birthDate.getDate()
+  );
+
+  const dayInMiliseconds = 1000 * 60 * 60 * 24;
+
+  if (nextBirthDay < today) {
+    nextBirthDay.setFullYear(today.getFullYear() + 1);
+  }
+
+  const daysToNextBirthday = Math.ceil(
+    (nextBirthDay.getTime() - today.getTime()) / dayInMiliseconds
+  );
+
+  return daysToNextBirthday;
+};
