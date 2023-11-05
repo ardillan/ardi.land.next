@@ -2,7 +2,7 @@
   align-items: center;
   display: grid;
   font-family: var(--fraiche-font);
-  grid-template-columns: 25% 1fr;
+  grid-template-columns: 1fr 1fr;
   margin: 25px auto;
   max-width: var(--main-container);
   width: auto;
