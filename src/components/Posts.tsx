@@ -6,20 +6,18 @@ import styles from "./Posts.module.css";
 
 const Posts = ({ allPostsData }): JSX.Element => (
   <ul className={styles.posts}>
-    {allPostsData
-      .slice(0, 5)
-      .map((post: { id: number; date: string; title: string }) => {
-        return (
-          <li key={post.id}>
-            <Link href={`/blog/${post.id}`}>
-              {post.title}
-              <small>
-                <Date dateString={post.date} />
-              </small>
-            </Link>
-          </li>
-        );
-      })}
+    {allPostsData.map((post: { id: number; date: string; title: string }) => {
+      return (
+        <li key={post.id}>
+          <Link href={`/blog/${post.id}`}>
+            {post.title}
+            <small>
+              <Date dateString={post.date} />
+            </small>
+          </Link>
+        </li>
+      );
+    })}
   </ul>
 );
 

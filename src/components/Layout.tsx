@@ -30,15 +30,7 @@ const Layout = ({ children, home }: ILayout): JSX.Element => (
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
     <MainNavigation />
-    <main className={styles.container}>
-      {" "}
-      {!home && (
-        <div>
-          <Link href="/">← Back to home</Link>
-        </div>
-      )}
-      {children}
-    </main>
+    <main className={styles.container}>{children}</main>
   </>
 );
 

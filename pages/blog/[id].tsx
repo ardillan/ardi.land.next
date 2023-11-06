@@ -5,9 +5,23 @@ import Markdown from "react-markdown";
 import Layout from "@/components/Layout";
 import Date from "@/components/Date";
 
-import { getAllPostIds, getPostData } from "../../src/lib/posts";
+import { getAllPostIds, getPostData } from "@/lib/posts";
 
-export default function Post({ postData }) {
+import styles from "./Blog.module.css";
+
+export type IPostData = {
+  id: string;
+  title: string;
+  subtitle: string;
+  date: string;
+  type: string[];
+  contentHtml: string;
+  description: string;
+  featuredImage: string;
+  category: string[];
+};
+
+export default function Post({ postData }: { postData: IPostData }) {
   const featuredImagePath = `/posts/${
     postData.id
   }/${postData.featuredImage.replace("./", "")}`;
@@ -18,16 +32,27 @@ export default function Post({ postData }) {
         <title>{postData.title}</title>
       </Head>
 
-      <article>
-        <h1>{postData.title}</h1>
-        <Date dateString={postData.date} />
-        <Image
-          src={featuredImagePath}
-          fill
-          alt="Imagen de cabecera"
-          style={{ objectFit: "cover" }}
-        />
-
+      <article id={styles.article}>
+        <header>
+          <div className={styles.content}>
+            <h1>{postData.title}</h1>
+            <h2>{postData.subtitle}</h2>
+            <Date dateString={postData.date} />
+          </div>
+          <div className={styles.image}>
+            <Image
+              src={featuredImagePath}
+              alt="Imagen de cabecera"
+              width={300}
+              height={300}
+              style={{
+                objectFit: "contain",
+                width: "100%",
+                position: "relative",
+              }}
+            />
+          </div>
+        </header>
         <Markdown
           components={{
             img: function ({ ...props }) {
@@ -38,9 +63,14 @@ export default function Post({ postData }) {
                 <Image
                   src={props.src}
                   alt={alt}
-                  width={1000}
-                  height={1000}
+                  width={900}
+                  height={900}
                   sizes="(max-width: 768px) 100vw"
+                  style={{
+                    objectFit: "contain",
+                    width: "100%",
+                    position: "relative",
+                  }}
                 />
               );
             },

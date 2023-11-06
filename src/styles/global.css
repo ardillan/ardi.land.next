@@ -1,10 +1,14 @@
 :root {
-  /* Colors */
+  /* Primary Colors */
   --color-space-dark: 35, 43, 67;
   --color-space-darker: 29, 33, 49;
   --color-snow-white: 255, 255, 255;
   --color-honey-yellow: 255, 220, 36;
   --color-calm-blue: 113 203 243;
+
+  /* Secondary Colors */
+  --color-red-rum: 255, 92, 160;
+  --color-kokiri-green: 92 236 102;
 
   /* Sizes */
   --main-container: 900px;
