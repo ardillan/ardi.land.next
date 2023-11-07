@@ -34,7 +34,7 @@ export default function Post({ postData }: { postData: IPostData }) {
 
       <article id={styles.article}>
         <header>
-          <div className={styles.content}>
+          <div className={styles.meta}>
             <h1>{postData.title}</h1>
             <h2>{postData.subtitle}</h2>
             <Date dateString={postData.date} />
@@ -53,31 +53,41 @@ export default function Post({ postData }: { postData: IPostData }) {
             />
           </div>
         </header>
-        <Markdown
-          components={{
-            img: function ({ ...props }) {
-              const substrings = props.alt?.split("{{");
-              const alt = substrings[0].trim();
 
-              return (
-                <Image
-                  src={props.src}
-                  alt={alt}
-                  width={900}
-                  height={900}
-                  sizes="(max-width: 768px) 100vw"
-                  style={{
-                    objectFit: "contain",
-                    width: "100%",
-                    position: "relative",
-                  }}
-                />
-              );
-            },
-          }}
-        >
-          {postData.contentHtml}
-        </Markdown>
+        <section className={styles.content}>
+          <Markdown
+            components={{
+              img: function ({ ...props }) {
+                const substrings = props.alt?.split("{{");
+                const alt = substrings[0].trim();
+
+                console.log("♥️", props);
+                return (
+                  <figure>
+                    <Image
+                      src={props.src}
+                      alt={props.alt}
+                      title={props.alt}
+                      width={900}
+                      height={900}
+                      sizes="(max-width: 768px) 100vw"
+                      style={{
+                        objectFit: "contain",
+                        width: "100%",
+                        position: "relative",
+                      }}
+                    />
+                    {props.alt !== null ? (
+                      <figcaption>{props.alt}</figcaption>
+                    ) : null}
+                  </figure>
+                );
+              },
+            }}
+          >
+            {postData.contentHtml}
+          </Markdown>
+        </section>
       </article>
     </Layout>
   );

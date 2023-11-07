@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-#article > header > .content h1 {
+#article > header > .meta h1 {
   font-family: var(--fraiche-font);
   font-size: 5rem;
   color: rgba(var(--color-honey-yellow));
@@ -14,9 +14,16 @@
   margin-top: 0;
   margin-bottom: 1rem;
   line-height: 4rem;
+  /* background: linear-gradient(
+    to right,
+    rgba(var(--color-honey-yellow)) 0%,
+    rgba(var(--color-red-rum))
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
-#article > header > .content h2 {
+#article > header > .meta h2 {
   font-size: 1.6rem;
   font-weight: 200;
   color: rgba(var(--color-snow-white));
@@ -45,6 +52,53 @@
   position: absolute;
 }
 
+#article > .content {
+  width: calc(var(--main-container) - 300px);
+}
+
+#article > .content a {
+  background: linear-gradient(
+    to right,
+    rgba(var(--color-honey-yellow)) 0%,
+    rgba(var(--color-red-rum)) 50%,
+    rgba(var(--color-kokiri-green)) 75%,
+    rgba(var(--color-calm-blue)) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 400;
+}
+
+#article > .content h2 {
+  font-weight: 400;
+  font-family: var(--fraiche-font);
+  color: rgba(var(--color-honey-yellow));
+}
+
+#article > .content > p > figure {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 3rem;
+}
+
+#article > .content > p > figure > img {
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow-default);
+}
+
+#article > .content > p > figure > figcaption {
+  font-size: 12px;
+  text-align: center;
+  color: rgba(var(--color-snow-white), 0.5);
+}
+
+#article > .content a:hover {
+  animation: rainbow 10s infinite;
+  animation-timing-function: linear;
+}
+
 #article blockquote {
   padding: 1rem 3rem;
   margin: 0;
@@ -54,6 +108,37 @@
   border-color: rgba(var(--color-honey-yellow)) rgba(var(--color-red-rum))
     rgba(var(--color-kokiri-green)) rgba(var(--color-calm-blue));
   background: rgba(var(--color-space-darker));
-  /* border-color: rgba(255, 146, 0, 0.33) rgba(255, 0, 0, 0.33)
-    rgba(74, 198, 101, 0.71) rgba(145, 114, 240, 0.33); */
+}
+
+@keyframes rainbow {
+  0% {
+    background-position-x: 0px;
+    /* background: linear-gradient(
+      to right,
+      rgba(var(--color-honey-yellow)) 0%,
+      rgba(var(--color-kokiri-green)) 75%,
+      rgba(var(--color-red-rum)) 50%,
+      rgba(var(--color-calm-blue)) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+  }
+
+  /* 50% {
+    background-position-x: 500px;
+  } */
+
+  100% {
+    background-position-x: 1000px;
+    /* transform: scale(10%);
+    background: linear-gradient(
+      to right,
+      rgba(var(--color-calm-blue)) 0%,
+      rgba(var(--color-red-rum)) 75%,
+      rgba(var(--color-kokiri-green)) 50%,
+      rgba(var(--color-honey-yellow)) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+  }
 }
