@@ -40,8 +40,8 @@
 }
 
 .stats > .indicators {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 20px 25px 20px;
 }
 
 .stats > .indicators > .hearts {
@@ -54,6 +54,10 @@
   display: flex;
   flex-wrap: nowrap;
   gap: 10px;
+}
+
+.stats > .indicators > .info p {
+  margin: 0;
 }
 
 .stats .honeyYellow {
