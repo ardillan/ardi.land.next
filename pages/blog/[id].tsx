@@ -39,7 +39,14 @@ export default function Post({ postData }: { postData: IPostData }) {
           <div className={styles.meta}>
             <h1>{postData.title}</h1>
             <h2>{postData.subtitle}</h2>
-            <Date dateString={postData.date} />
+            <div className={styles.info}>
+              Escrito el <Date dateString={postData.date} /> <span>|</span> {" "}
+              {postData.category.map(
+                (cat: string, index: number, categories: string[]) => (
+                  <>{`${cat}${index === categories.length - 1 ? "" : ", "}`}</>
+                )
+              )}
+            </div>
           </div>
           <div className={styles.image}>
             <Image

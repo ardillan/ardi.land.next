@@ -27,8 +27,21 @@
   font-size: 1.6rem;
   font-weight: 200;
   color: rgba(var(--color-snow-white));
-  margin: 0;
+  margin-bottom: 1rem;
   line-height: normal;
+}
+
+#article > header > div > .info {
+  font-size: 0.8rem;
+  color: rgba(var(--color-snow-white));
+  background: rgba(var(--color-space-darker));
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+  width: max-content;
+}
+
+#article > header > div > .info > span {
+  color: rgba(var(--color-honey-yellow));
 }
 
 #article > header > .image > img {
