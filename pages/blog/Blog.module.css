@@ -56,6 +56,17 @@
   width: calc(var(--main-container) - 300px);
 }
 
+#article > .content > pre > div {
+  background: rgba(var(--color-space-darker)) !important;
+  font-size: 0.9rem !important;
+  border-radius: var(--border-radius);
+  border: 2px solid rgb(18 19 23);
+}
+
+#article > .content > pre > div > code {
+  background: rgba(var(--color-space-darker)) !important;
+}
+
 #article > .content a {
   background: linear-gradient(
     to right,
@@ -65,6 +76,7 @@
     rgba(var(--color-calm-blue)) 100%
   );
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 400;
 }
@@ -75,20 +87,19 @@
   color: rgba(var(--color-honey-yellow));
 }
 
-#article > .content > p > figure {
+#article > .content > figure {
   padding: 0;
-  margin: 0;
-  margin-bottom: 3rem;
+  margin: 3rem 0;
 }
 
-#article > .content > p > figure > img {
+#article > .content > figure > img {
   height: auto;
   margin-bottom: 1rem;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow-default);
 }
 
-#article > .content > p > figure > figcaption {
+#article > .content > figure > figcaption {
   font-size: 12px;
   text-align: center;
   color: rgba(var(--color-snow-white), 0.5);

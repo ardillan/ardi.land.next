@@ -6,6 +6,8 @@ import Layout from "@/components/Layout";
 import Date from "@/components/Date";
 
 import { getAllPostIds, getPostData } from "@/lib/posts";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import theme from "react-syntax-highlighter/dist/cjs/styles/prism/duotone-dark";
 
 import styles from "./Blog.module.css";
 
@@ -57,11 +59,34 @@ export default function Post({ postData }: { postData: IPostData }) {
         <section className={styles.content}>
           <Markdown
             components={{
+              code: function ({ ...props }) {
+                const { children, className, node, ...rest } = props;
+
+                const match = /language-(\w+)/.exec(className || "");
+                return match ? (
+                  <SyntaxHighlighter
+                    {...rest}
+                    PreTag="div"
+                    children={String(children).replace(/\n$/, "")}
+                    language={match[1]}
+                    style={theme}
+                    className={styles.code}
+                  />
+                ) : (
+                  <code {...rest} className={className}>
+                    {children}
+                  </code>
+                );
+              },
+              p: function ({ ...props }) {
+                if (props.children?.key?.includes("img")) {
+                  return <>{props.children}</>;
+                }
+                return <p>{props.children}</p>;
+              },
+
               img: function ({ ...props }) {
                 const substrings = props.alt?.split("{{");
-                const alt = substrings[0].trim();
-
-                console.log("♥️", props);
                 return (
                   <figure>
                     <Image
