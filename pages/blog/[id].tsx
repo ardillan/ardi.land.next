@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Markdown from "react-markdown";
@@ -43,7 +44,9 @@ export default function Post({ postData }: { postData: IPostData }) {
               Escrito el <Date dateString={postData.date} /> <span>|</span> {" "}
               {postData.category.map(
                 (cat: string, index: number, categories: string[]) => (
-                  <>{`${cat}${index === categories.length - 1 ? "" : ", "}`}</>
+                  <Fragment key={cat}>{`${cat}${
+                    index === categories.length - 1 ? "" : ", "
+                  }`}</Fragment>
                 )
               )}
             </div>
@@ -86,14 +89,17 @@ export default function Post({ postData }: { postData: IPostData }) {
                 );
               },
               p: function ({ ...props }) {
-                if (props.children?.key?.includes("img")) {
-                  return <>{props.children}</>;
-                }
-                return <p>{props.children}</p>;
+                // This avoid having images within <p> elements
+                return typeof props.children === "object" ? (
+                  <>{props.children}</>
+                ) : (
+                  <p>{props.children}</p>
+                );
               },
-
+              div: function ({ ...props }) {
+                console.log("♥️ div", props);
+              },
               img: function ({ ...props }) {
-                const substrings = props.alt?.split("{{");
                 return (
                   <figure>
                     <Image
