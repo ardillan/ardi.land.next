@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Link from "next/link";
 
 import MainNavigation from "./MainNavigation";
 
 import styles from "./Layout.module.css";
+import Footer from "./Footer";
 
 interface ILayout {
   children: JSX.Element | JSX.Element[];
@@ -31,6 +31,7 @@ const Layout = ({ children, home }: ILayout): JSX.Element => (
     </Head>
     <MainNavigation />
     <main className={styles.container}>{children}</main>
+    <Footer />
   </>
 );
 

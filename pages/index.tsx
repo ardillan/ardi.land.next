@@ -15,7 +15,6 @@ export default function Home({ allPostsData }): JSX.Element {
       </Head>
       <Welcome />
       <Posts allPostsData={allPostsData} />
-      <Footer />
     </Layout>
   );
 }
