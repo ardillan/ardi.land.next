@@ -1,4 +1,4 @@
-#footer {
+.footer {
   margin-top: 5rem;
   margin-bottom: 5rem;
   display: flex;
@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-#footer p {
+.footer p {
   padding: 0;
   margin: 0;
 }

@@ -1,14 +1,15 @@
 import fs from "fs";
-import path from "path";
 import matter from "gray-matter";
-
+import path from "path";
 import { remark } from "remark";
-import transformImgSrc from "./transform-img-src";
+
 import { IPostData } from "@/interfaces/IPost";
+
+import transformImgSrc from "./transform-img-src";
 
 const postsDirectory = path.join(process.cwd(), "content/posts/");
 
-export function getSortedPostsData() {
+export function getSortedPostsData(): IPostData[] {
   // Get file names under /posts
   const fileNames = fs.readdirSync(postsDirectory);
   const allPostsData = fileNames
@@ -29,10 +30,17 @@ export function getSortedPostsData() {
       // Combine the data with the id
       return {
         id,
-        ...matterResult.data,
+        title: matterResult.data.title,
+        subtitle: matterResult.data.subtitle,
+        date: matterResult.data.date,
+        type: matterResult.data.type,
+        description: matterResult.data.description,
+        featuredImage: matterResult.data.featuredImage,
+        category: matterResult.data.category,
       };
     })
     .filter((el) => Object.keys(el).length !== 0);
+
   // Sort posts by date
   return allPostsData.sort((a, b) => {
     if (a.date < b.date) {

@@ -1,7 +1,8 @@
 import Head from "next/head";
+import React from "react";
 
-import MainNavigation from "@/appComponents/MainNavigation";
 import Footer from "@/appComponents/Footer";
+import MainNavigation from "@/appComponents/MainNavigation";
 
 import styles from "./MainLayout.module.css";
 
@@ -12,7 +13,7 @@ interface IMainLayout {
 
 export const siteTitle = "Ardi Next";
 
-const MainLayout = ({ children, home }: IMainLayout): JSX.Element => (
+const MainLayout = ({ children }: IMainLayout): JSX.Element => (
   <>
     <Head>
       <link rel="icon" href="/favicon.ico" />

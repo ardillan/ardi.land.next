@@ -1,15 +1,13 @@
-import { parseISO, format } from "date-fns";
-import styles from "./Date.module.css";
+import React from "react";
+
 import { formatDate } from "@/lib/helpers";
 
-export default function Date(dateObject: { dateString: string }): JSX.Element {
+export default function Date(dateObject: {
+  dateString: string | null;
+}): JSX.Element | null {
   const { dateString } = dateObject;
-
-  const date = parseISO(dateString);
-
+  if (!dateString) return null;
   return (
-    <time className={styles.date} dateTime={dateString}>
-      {formatDate(dateString, "readable")}
-    </time>
+    <time dateTime={dateString}>{formatDate(dateString, "readable")}</time>
   );
 }

@@ -38,9 +38,9 @@ export const formatDate = (
 };
 
 export const getAge = (): number => {
-  let birthDay = new Date(ARDI_BIRTHDAY);
-  let today = new Date();
-  let ageDate = new Date(today - birthDay);
+  const birthDay = new Date(ARDI_BIRTHDAY);
+  const today = new Date();
+  const ageDate = new Date(today - birthDay);
   return Math.abs(ageDate.getUTCFullYear() - 1970);
 };
 

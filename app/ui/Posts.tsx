@@ -1,10 +1,12 @@
-import React from "react";
-import Date from "@/appComponents/Date";
 import Link from "next/link";
+import React from "react";
+
+import Date from "@/appComponents/Date";
+import { IPostData } from "@/interfaces/IPost";
 
 import styles from "./Posts.module.css";
 
-const Posts = ({ allPostsData }): JSX.Element => (
+const Posts = ({ allPostsData }: { allPostsData: IPostData }): JSX.Element => (
   <ul className={styles.posts}>
     {allPostsData.map((post: { id: number; date: string; title: string }) => {
       return (

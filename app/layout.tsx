@@ -1,5 +1,8 @@
 import "@/styles/global.css";
-import { fontInter, fontFraiche } from "@/appComponents/Fonts";
+
+import React from "react";
+
+import { fontFraiche, fontInter } from "@/appComponents/Fonts";
 
 export default function RootLayout({
   // Layouts must accept a children prop.

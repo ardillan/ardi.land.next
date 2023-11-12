@@ -1,4 +1,4 @@
-#article > header {
+.article > header {
   display: grid;
   grid-template-columns: 1fr 300px;
   margin-bottom: 3rem;
@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-#article > header > .meta h1 {
+.article > header > .meta h1 {
   font-family: var(--fraiche-font);
   font-size: 5rem;
   color: rgba(var(--color-honey-yellow));
@@ -16,7 +16,7 @@
   line-height: 4rem;
 }
 
-#article > header > .meta h2 {
+.article > header > .meta h2 {
   font-size: 1.6rem;
   font-weight: 200;
   color: rgba(var(--color-snow-white));
@@ -24,7 +24,7 @@
   line-height: normal;
 }
 
-#article > header > div > .info {
+.article > header > div > .info {
   font-size: 0.8rem;
   color: rgba(var(--color-snow-white));
   background: rgba(var(--color-space-darker));
@@ -33,19 +33,19 @@
   width: max-content;
 }
 
-#article > header > div > .info > span {
+.article > header > div > .info > span {
   color: rgba(var(--color-honey-yellow));
 }
 
-#article > header > .image > img {
+.article > header > .image > img {
   transform: rotate(2deg);
 }
 
-#article > header > .image > img {
+.article > header > .image > img {
   border-radius: var(--border-radius);
 }
 
-#article > header > .image:before {
+.article > header > .image:before {
   content: "";
   background: rgba(var(--color-space-darker));
   border-radius: var(--border-radius);
@@ -58,22 +58,18 @@
   position: absolute;
 }
 
-#article > .content {
+.article > .content {
   width: calc(var(--main-container) - 300px);
 }
 
-#article > .content > pre > div {
+div.code {
   background: rgba(var(--color-space-darker)) !important;
   font-size: 0.9rem !important;
   border-radius: var(--border-radius);
-  border: 2px solid rgb(18 19 23);
+  border: 1px solid rgb(18 19 23);
 }
 
-#article > .content > pre > div > code {
-  background: rgba(var(--color-space-darker)) !important;
-}
-
-#article > .content a {
+.article > .content a {
   background: linear-gradient(
     to right,
     rgba(var(--color-honey-yellow)) 0%,
@@ -87,36 +83,36 @@
   font-weight: 400;
 }
 
-#article > .content h2 {
+.article > .content h2 {
   font-weight: 400;
   font-family: var(--fraiche-font);
   color: rgba(var(--color-honey-yellow));
 }
 
-#article > .content > figure {
+.article > .content > figure {
   padding: 0;
   margin: 3rem 0;
 }
 
-#article > .content > figure > img {
+.article > .content > figure > img {
   height: auto;
   margin-bottom: 1rem;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow-default);
 }
 
-#article > .content > figure > figcaption {
+.article > .content > figure > figcaption {
   font-size: 12px;
   text-align: center;
   color: rgba(var(--color-snow-white), 0.5);
 }
 
-#article > .content a:hover {
+.article > .content a:hover {
   animation: rainbow 10s infinite;
   animation-timing-function: linear;
 }
 
-#article blockquote {
+.article blockquote {
   padding: 1rem 3rem;
   margin: 0;
   border-width: 2px;
