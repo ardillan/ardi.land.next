@@ -1,6 +1,8 @@
+import React from "react";
+
 import MainLayout from "@/appComponents/MainLayout";
 
-import styles from "./NotFound.module.css";
+import styles from "./not-found.module.css";
 
 export default function Custom404() {
   return (
