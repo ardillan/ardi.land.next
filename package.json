@@ -5,18 +5,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint app/** src/interfaces src/lib",
-    "lint-fix": "eslint --fix app/** src/interfaces src/lib"
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "npm run lint",
-      "git add"
-    ]
+    "lint-fix": "eslint --fix app/** src/interfaces src/lib",
+    "prepare": "husky install"
   },
   "type": "module",
   "dependencies": {
@@ -40,7 +30,6 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "husky": "^8.0.3",
-    "lint-staged": "^15.1.0",
     "typescript": "5.2.2"
   }
 }
