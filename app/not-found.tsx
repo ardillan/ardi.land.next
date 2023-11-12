@@ -1,5 +1,3 @@
-import React from "react";
-
 import MainLayout from "@/appComponents/MainLayout";
 
 import styles from "./NotFound.module.css";
