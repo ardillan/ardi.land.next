@@ -1,5 +1,5 @@
 import React from "react";
-import Date from "@/components/Date";
+import Date from "@/appComponents/Date";
 import Link from "next/link";
 
 import styles from "./Posts.module.css";

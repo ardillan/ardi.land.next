@@ -1,3 +1,5 @@
+import { ARDI_BIRTHDAY } from "@/lib/constants";
+
 export const formatDateTime = (commitTime: string): string => {
   return new Date(commitTime).toLocaleDateString("es-ES", {
     year: "numeric",
@@ -36,29 +38,40 @@ export const formatDate = (
 };
 
 export const getAge = (): number => {
-  let birthDay: Date = new Date("Aug 23 1988 13:50:00 GMT+0200 (CEST)");
-  let today: Date = new Date();
+  let birthDay = new Date(ARDI_BIRTHDAY);
+  let today = new Date();
   let ageDate = new Date(today - birthDay);
   return Math.abs(ageDate.getUTCFullYear() - 1970);
 };
 
-export const getExperience = (birthDate: Date): number => {
+export function getExperience(birthdateString: string): number {
+  // Parse the input string into a Date object
+  const birthdate = new Date(birthdateString);
+
+  // Get today's date
   const today = new Date();
-  const nextBirthDay = new Date(
+
+  // Set the birthdate to the current year
+  const nextBirthday = new Date(
     today.getFullYear(),
-    birthDate.getMonth(),
-    birthDate.getDate()
+    birthdate.getMonth(),
+    birthdate.getDate()
   );
 
-  const dayInMiliseconds = 1000 * 60 * 60 * 24;
-
-  if (nextBirthDay < today) {
-    nextBirthDay.setFullYear(today.getFullYear() + 1);
+  // If the next birthday has already occurred this year, set it to next year
+  if (today > nextBirthday) {
+    nextBirthday.setFullYear(today.getFullYear() + 1);
   }
 
-  const daysToNextBirthday = Math.ceil(
-    (nextBirthDay.getTime() - today.getTime()) / dayInMiliseconds
-  );
+  // Calculate the time difference in milliseconds
+  const timeDiff = nextBirthday.getTime() - today.getTime();
 
-  return daysToNextBirthday;
-};
+  // Convert the time difference to days
+  const daysLeft = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
+
+  if (daysLeft === 366) {
+    return 365;
+  }
+
+  return 365 - daysLeft;
+}

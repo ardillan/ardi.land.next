@@ -68,16 +68,31 @@
   width: 100%;
   height: 15px;
   border: 2px solid white;
-  /* border-radius: var(--border-radius); */
   border-radius: calc(var(--border-radius) * 5);
 }
 
-.indicators > .experience > progress::-webkit-progress-bar {
+.indicators > .regular > progress::-webkit-progress-bar {
   background-color: rgba(255, 220, 36, 0.2);
   border-radius: var(--border-radius);
 }
-.indicators > .experience > progress::-webkit-progress-value {
+
+.indicators > .regular > progress::-webkit-progress-value {
   background-color: rgba(var(--color-honey-yellow));
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-top-left-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
+}
+
+.indicators > .birthday > progress::-webkit-progress-bar {
+  border-radius: var(--border-radius);
+}
+
+.indicators > .birthday > progress::-webkit-progress-value {
+  border-radius: var(--border-radius);
+  background: linear-gradient(
+    to right,
+    rgba(var(--color-honey-yellow)) 0%,
+    rgba(var(--color-red-rum)) 50%,
+    rgba(var(--color-kokiri-green)) 75%,
+    rgba(var(--color-calm-blue)) 100%
+  );
 }

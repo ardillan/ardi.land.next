@@ -3,8 +3,8 @@ import Head from "next/head";
 import Image from "next/image";
 import Markdown from "react-markdown";
 
-import Layout from "@/components/Layout";
-import Date from "@/components/Date";
+import Layout from "@/appComponents/MainLayout";
+import Date from "@/appComponents/Date";
 
 import { getAllPostIds, getPostData } from "@/lib/posts";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
@@ -24,7 +24,11 @@ export type IPostData = {
   category: string[];
 };
 
-export default function Post({ postData }: { postData: IPostData }) {
+// export default function Post({ postData }: { postData: IPostData }) {
+export default async function Post({ params }) {
+  const { id } = params;
+
+  const postData = await getPostData(id);
   const featuredImagePath = `/posts/${
     postData.id
   }/${postData.featuredImage.replace("./", "")}`;
@@ -96,9 +100,6 @@ export default function Post({ postData }: { postData: IPostData }) {
                   <p>{props.children}</p>
                 );
               },
-              div: function ({ ...props }) {
-                console.log("♥️ div", props);
-              },
               img: function ({ ...props }) {
                 return (
                   <figure>
@@ -130,20 +131,11 @@ export default function Post({ postData }: { postData: IPostData }) {
     </Layout>
   );
 }
-export async function getStaticPaths() {
-  // Return a list of possible value for id
-  const paths = getAllPostIds();
-  return {
-    paths,
-    fallback: false,
-  };
-}
-
-export async function getStaticProps({ params }) {
-  const postData = await getPostData(params.id);
-  return {
-    props: {
-      postData,
-    },
-  };
+export async function generateStaticParams(): Promise<{ id: string }[]> {
+  const paths = await getAllPostIds();
+  return paths.map((path) => {
+    return {
+      id: path.params.id,
+    };
+  });
 }

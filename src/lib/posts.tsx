@@ -4,6 +4,7 @@ import matter from "gray-matter";
 
 import { remark } from "remark";
 import transformImgSrc from "./transform-img-src";
+import { IPostData } from "@/interfaces/IPost";
 
 const postsDirectory = path.join(process.cwd(), "content/posts/");
 
@@ -42,7 +43,7 @@ export function getSortedPostsData() {
   });
 }
 
-export function getAllPostIds() {
+export async function getAllPostIds() {
   const fileNames = fs.readdirSync(postsDirectory);
   // Returns an array that looks like this:
   // [
@@ -57,7 +58,7 @@ export function getAllPostIds() {
   //     }
   //   }
   // ]
-  return fileNames.map((fileName) => {
+  return fileNames.map((fileName: string) => {
     return {
       params: {
         id: fileName.replace(/\.md$/, ""),
@@ -66,7 +67,7 @@ export function getAllPostIds() {
   });
 }
 
-export async function getPostData(id) {
+export async function getPostData(id: string): Promise<IPostData> {
   const fullPath = path.join(postsDirectory, `${id}.md`);
 
   const fileContents = fs.readFileSync(fullPath, "utf8");
@@ -80,10 +81,17 @@ export async function getPostData(id) {
     .process(matterResult.content);
   const contentHtml = processedContent.toString();
 
-  // Combine the data with the id and contentHtml
-  return {
+  const postData: IPostData = {
     id,
     contentHtml,
-    ...matterResult.data,
+    title: matterResult.data.title,
+    subtitle: matterResult.data.subtitle,
+    date: matterResult.data.date,
+    type: matterResult.data.type,
+    description: matterResult.data.description,
+    featuredImage: matterResult.data.featuredImage,
+    category: matterResult.data.category,
   };
+
+  return postData;
 }

@@ -1,18 +1,18 @@
 import Head from "next/head";
 
-import MainNavigation from "./MainNavigation";
+import MainNavigation from "@/appComponents/MainNavigation";
+import Footer from "@/appComponents/Footer";
 
-import styles from "./Layout.module.css";
-import Footer from "./Footer";
+import styles from "./MainLayout.module.css";
 
-interface ILayout {
+interface IMainLayout {
   children: JSX.Element | JSX.Element[];
   home?: boolean;
 }
 
-export const siteTitle = "Web";
+export const siteTitle = "Ardi Next";
 
-const Layout = ({ children, home }: ILayout): JSX.Element => (
+const MainLayout = ({ children, home }: IMainLayout): JSX.Element => (
   <>
     <Head>
       <link rel="icon" href="/favicon.ico" />
@@ -35,4 +35,4 @@ const Layout = ({ children, home }: ILayout): JSX.Element => (
   </>
 );
 
-export default Layout;
+export default MainLayout;

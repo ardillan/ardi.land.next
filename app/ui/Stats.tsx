@@ -1,15 +1,16 @@
-import Link from "next/link";
 import React from "react";
-
-import styles from "./Stats.module.css";
+import Link from "next/link";
 
 import { getExperience, getAge } from "@/lib/helpers";
+import styles from "./Stats.module.css";
+import { ARDI_BIRTHDAY } from "@/lib/constants";
 
 const Stats = (): JSX.Element => {
   const age = getAge();
   const hearts = [1, 2, 3, 4];
-  const experience = getExperience(new Date("1988-08-23"));
+  const experience = getExperience(ARDI_BIRTHDAY);
 
+  console.log("experience", experience);
   return (
     <div className={styles.stats}>
       <Link href="/">
@@ -29,7 +30,11 @@ const Stats = (): JSX.Element => {
             );
           })}
         </div>
-        <div className={styles.experience}>
+        <div
+          className={`${styles.experience} ${
+            experience === 365 ? styles.birthday : styles.regular
+          }`}
+        >
           <progress id="file" value={experience} max="365" />
         </div>
         <div className={styles.info}>

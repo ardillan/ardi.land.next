@@ -3,7 +3,7 @@ import { visit } from "unist-util-visit";
 const imgDirInsidePublic = "/posts";
 
 export default function transformImgSrc({ id }) {
-  return (tree, file) => {
+  return (tree) => {
     visit(tree, "paragraph", (node) => {
       const image = node.children.find((child) => {
         return child.type === "image";
