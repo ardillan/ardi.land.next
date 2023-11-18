@@ -17,7 +17,6 @@ const DynamicPage = async ({ params }) => {
 
   if (!pageContent) return <Custom404 />;
 
-  console.log("🟠", slug);
   const dynamicsLayouts: { [key: string]: any } = {
     default: DefaultLayout,
     main: MainLayout,
