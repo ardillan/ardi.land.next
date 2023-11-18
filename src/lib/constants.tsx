@@ -4,14 +4,17 @@ export const NAVIGATION: Array<INavigationLink> = [
   {
     title: "Inicio",
     path: "/",
+    layout: "home",
   },
   {
     title: "Espacios",
     path: "/espacios",
+    layout: "default",
   },
   {
     title: "Blog",
     path: "/blog",
+    layout: "blog",
   },
 ];
 

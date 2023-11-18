@@ -1,4 +1,4 @@
-import { ARDI_BIRTHDAY } from "@/lib/constants";
+import { ARDI_BIRTHDAY, NAVIGATION } from "@/lib/constants";
 
 export const formatDateTime = (commitTime: string): string => {
   return new Date(commitTime).toLocaleDateString("es-ES", {
@@ -40,8 +40,18 @@ export const formatDate = (
 export const getAge = (): number => {
   const birthDay = new Date(ARDI_BIRTHDAY);
   const today = new Date();
-  const ageDate = new Date(today - birthDay);
+  const ageDate = new Date(+today - +birthDay);
   return Math.abs(ageDate.getUTCFullYear() - 1970);
+};
+
+export const layoutSelector = (slug: string): string => {
+  const layout = NAVIGATION.filter((nav) => {
+    return nav.path === `/${slug}`;
+  })[0].layout;
+
+  if (layout === undefined) return "default";
+
+  return layout;
 };
 
 export function getExperience(birthdateString: string): number {

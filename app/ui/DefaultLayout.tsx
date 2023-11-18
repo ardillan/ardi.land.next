@@ -1,20 +1,22 @@
 import Head from "next/head";
 import React from "react";
+import Markdown from "react-markdown";
 
 import Footer from "@/appComponents/Footer";
 import MainNavigation from "@/appComponents/MainNavigation";
+import { IPostData } from "@/interfaces/IPost";
 
 import styles from "./MainLayout.module.css";
 
 interface IMainLayout {
-  children: JSX.Element | JSX.Element[];
+  pageContent: IPostData;
   home?: boolean;
   className?: object;
 }
 
 export const siteTitle = "Ardi Next";
 
-const MainLayout = ({ children, className }: IMainLayout): JSX.Element => (
+const MainLayout = ({ pageContent }: IMainLayout): JSX.Element => (
   <>
     <Head>
       <link rel="icon" href="/favicon.ico" />
@@ -32,7 +34,15 @@ const MainLayout = ({ children, className }: IMainLayout): JSX.Element => (
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
     <MainNavigation />
-    <main className={`${styles.container} ${className} `}>{children}</main>
+    <main className={styles.container}>
+      <header>
+        <h1>{pageContent.title}</h1>
+        <h3>{pageContent.description}</h3>
+      </header>
+      <section>
+        <Markdown>{pageContent.contentHtml}</Markdown>
+      </section>
+    </main>
     <Footer />
   </>
 );
