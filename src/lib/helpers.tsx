@@ -49,7 +49,7 @@ export const layoutSelector = (slug: string): string => {
     return nav.path === `/${slug}`;
   })[0].layout;
 
-  if (layout === undefined) return "default";
+  if (layout === undefined) return "page";
 
   return layout;
 };

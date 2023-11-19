@@ -1,15 +1,14 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React from "react";
 
+import BasicLayout from "@/appComponents/BasicLayout";
 import BlogLayout from "@/appComponents/BlogLayout";
-import DefaultLayout from "@/appComponents/DefaultLayout";
 import HomeLayout from "@/appComponents/HomeLayout";
-import MainLayout from "@/appComponents/MainLayout";
+import PageLayout from "@/appComponents/PageLayout";
 import { layoutSelector } from "@/lib/helpers";
 import { readMarkdownFile } from "@/lib/markdown";
 
 import Custom404 from "../not-found";
-// import styles from "./DynamicPage.module.css";
 
 const DynamicPage = async ({ params }) => {
   const { slug } = params;
@@ -18,8 +17,8 @@ const DynamicPage = async ({ params }) => {
   if (!pageContent) return <Custom404 />;
 
   const dynamicsLayouts: { [key: string]: any } = {
-    default: DefaultLayout,
-    main: MainLayout,
+    page: PageLayout,
+    main: BasicLayout,
     home: HomeLayout,
     blog: BlogLayout,
   };
@@ -28,7 +27,11 @@ const DynamicPage = async ({ params }) => {
 
   const DynamicLayout = dynamicsLayouts[layout];
 
-  return <DynamicLayout pageContent={pageContent} />;
+  return (
+    <BasicLayout>
+      <DynamicLayout pageContent={pageContent} />
+    </BasicLayout>
+  );
 };
 
 export default DynamicPage;

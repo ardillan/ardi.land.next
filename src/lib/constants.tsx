@@ -9,7 +9,7 @@ export const NAVIGATION: Array<INavigationLink> = [
   {
     title: "Espacios",
     path: "/espacios",
-    layout: "default",
+    layout: "page",
   },
   {
     title: "Blog",

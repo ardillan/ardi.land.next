@@ -1,16 +1,16 @@
 import React from "react";
 
-import MainLayout from "@/appComponents/MainLayout";
+import BasicLayout from "@/appComponents/BasicLayout";
 
 import styles from "./not-found.module.css";
 
 export default function Custom404() {
   return (
-    <MainLayout>
+    <BasicLayout>
       <div className={styles.notFound}>
         <span>😢</span>
         <h1>Página no encontrada</h1>
       </div>
-    </MainLayout>
+    </BasicLayout>
   );
 }

@@ -6,10 +6,11 @@ import Markdown from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import theme from "react-syntax-highlighter/dist/cjs/styles/prism/synthwave84";
 
+import Layout from "@/appComponents/BasicLayout";
 import Date from "@/appComponents/Date";
-import Layout from "@/appComponents/MainLayout";
 import { getAllPostIds, getPostData } from "@/lib/posts";
 
+import global from "../../ui/Global.module.css";
 import styles from "./Blog.module.css";
 
 export default async function Post({ params }) {
@@ -27,7 +28,7 @@ export default async function Post({ params }) {
       </Head>
 
       <article className={styles.article}>
-        <header>
+        <header className={global.container}>
           <div className={styles.meta}>
             <h1>{postData.title}</h1>
             <h2>{postData.subtitle}</h2>
@@ -62,7 +63,7 @@ export default async function Post({ params }) {
           </div>
         </header>
 
-        <section className={styles.content}>
+        <section className={`${styles.content}`}>
           <Markdown
             components={{
               code: function ({ ...props }) {

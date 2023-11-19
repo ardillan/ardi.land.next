@@ -4,17 +4,14 @@ import React from "react";
 import Footer from "@/appComponents/Footer";
 import MainNavigation from "@/appComponents/MainNavigation";
 
-import styles from "./MainLayout.module.css";
-
-interface IMainLayout {
+interface IBasicLayout {
   children: JSX.Element | JSX.Element[];
-  home?: boolean;
   className?: object;
 }
 
 export const siteTitle = "Ardi Next";
 
-const MainLayout = ({ children, className }: IMainLayout): JSX.Element => (
+const BasicLayout = ({ children, className }: IBasicLayout): JSX.Element => (
   <>
     <Head>
       <link rel="icon" href="/favicon.ico" />
@@ -22,19 +19,14 @@ const MainLayout = ({ children, className }: IMainLayout): JSX.Element => (
         name="description"
         content="Learn how to build a personal website using Next.js"
       />
-      <meta
-        property="og:image"
-        content={`https://og-image.vercel.app/${encodeURI(
-          siteTitle
-        )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
-      />
+
       <meta name="og:title" content={siteTitle} />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
     <MainNavigation />
-    <main className={`${styles.container} ${className} `}>{children}</main>
+    <main className={`${className} `}>{children}</main>
     <Footer />
   </>
 );
 
-export default MainLayout;
+export default BasicLayout;

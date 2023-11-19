@@ -15,7 +15,6 @@
     "jsx": "preserve",
     "paths": {
       "@/appComponents/*": ["./app/ui/*"],
-      "@/components*": ["./src/components/*"],
       "@/styles/*": ["./src/styles/*"],
       "@/lib/*": ["./src/lib/*"],
       "@/interfaces/*": ["./src/interfaces/*"]

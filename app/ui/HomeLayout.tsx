@@ -1,25 +1,26 @@
-import { Metadata } from "next";
 import React from "react";
 
-import Layout, { siteTitle } from "@/appComponents/MainLayout";
+import BasicLayout from "@/appComponents/BasicLayout";
 import Posts from "@/appComponents/Posts";
 import Welcome from "@/appComponents/Welcome";
 import { IPostData } from "@/interfaces/IPost";
 import { getSortedPostsData } from "@/lib/posts";
 
-export const metadata: Metadata = {
-  title: siteTitle,
-};
+import global from "../ui/Global.module.css";
 
-export default async function Home(): Promise<JSX.Element> {
+const Home = async (): Promise<JSX.Element> => {
   const allPostsData = await getAllPostData();
 
   return (
-    <Layout home>
-      <Welcome />
-      <Posts layout="list" allPostsData={allPostsData} />
-    </Layout>
+    <BasicLayout>
+      <div className={global.container}>
+        <Welcome />
+        <Posts layout="list" allPostsData={allPostsData} />
+      </div>
+    </BasicLayout>
   );
-}
+};
 
 const getAllPostData = async (): Promise<IPostData[]> => getSortedPostsData();
+
+export default Home;
