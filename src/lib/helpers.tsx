@@ -47,7 +47,7 @@ export const getAge = (): number => {
 export const layoutSelector = (slug: string): string => {
   const layout = NAVIGATION.filter((nav) => {
     return nav.path === `/${slug}`;
-  })[0].layout;
+  })[0]?.layout;
 
   if (layout === undefined) return "page";
 
