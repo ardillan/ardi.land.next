@@ -61,7 +61,6 @@
 
 .article > .content {
   width: calc(var(--main-container) - 300px);
-  margin: auto;
 }
 
 div.code {

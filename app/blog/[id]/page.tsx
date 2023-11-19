@@ -6,7 +6,7 @@ import Markdown from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import theme from "react-syntax-highlighter/dist/cjs/styles/prism/synthwave84";
 
-import Layout from "@/appComponents/BasicLayout";
+import BasicLayout from "@/appComponents/BasicLayout";
 import Date from "@/appComponents/Date";
 import { getAllPostIds, getPostData } from "@/lib/posts";
 
@@ -22,13 +22,13 @@ export default async function Post({ params }) {
   }/${postData?.featuredImage?.replace("./", "")}`;
 
   return (
-    <Layout>
+    <BasicLayout>
       <Head>
         <title>{postData.title}</title>
       </Head>
 
-      <article className={styles.article}>
-        <header className={global.container}>
+      <article className={`${styles.article} ${global.container}`}>
+        <header>
           <div className={styles.meta}>
             <h1>{postData.title}</h1>
             <h2>{postData.subtitle}</h2>
@@ -63,7 +63,7 @@ export default async function Post({ params }) {
           </div>
         </header>
 
-        <section className={`${styles.content}`}>
+        <section className={styles.content}>
           <Markdown
             components={{
               code: function ({ ...props }) {
@@ -123,7 +123,7 @@ export default async function Post({ params }) {
           </Markdown>
         </section>
       </article>
-    </Layout>
+    </BasicLayout>
   );
 }
 export async function generateStaticParams(): Promise<{ id: string }[]> {

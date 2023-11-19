@@ -11,7 +11,7 @@ interface IBasicLayout {
 
 export const siteTitle = "Ardi Next";
 
-const BasicLayout = ({ children, className }: IBasicLayout): JSX.Element => (
+const BasicLayout = ({ children }: IBasicLayout): JSX.Element => (
   <>
     <Head>
       <link rel="icon" href="/favicon.ico" />
@@ -24,7 +24,7 @@ const BasicLayout = ({ children, className }: IBasicLayout): JSX.Element => (
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
     <MainNavigation />
-    <main className={`${className} `}>{children}</main>
+    <main>{children}</main>
     <Footer />
   </>
 );
