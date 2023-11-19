@@ -9,8 +9,6 @@ category:
   - Espacios
 ---
 
-## 👨‍💻 Mis espacios
-
 En este 2022 no he avanzado todo lo que sí me hubiese gustado. He andado jugueteando aquí y allá con plataformas como pueden ser **Contentful** o **ContentStack**. He descubierto algún que otro framework CSS como [Chakra](https://chakra-ui.com), he cerrado un proyecto que inicié en 2020 (sólamente compré el dominio) al que llamé _setups.tech_, con él pretendía aprender y crear una especie de comunidad en base a escritorios o _set-ups_.
 
 Apenas he escrito en mi blog y no he dedicado tiempo a formarme lo suficiente. Muestra de ello es esta entrada, que escribo en ~abril~ mayo, cuando debería haber sido como mucho en enero. En general, creo que podría haberlo hecho bastante mejor.

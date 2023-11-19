@@ -4,6 +4,7 @@ import SuperMarkdown from "@/appComponents/SuperMarkdown";
 import { IPostData } from "@/interfaces/IPost";
 
 import global from "../ui/Global.module.css";
+import styles from "../ui/PageLayout.module.css";
 
 interface IPageLayout {
   pageContent: IPostData;
@@ -12,7 +13,7 @@ interface IPageLayout {
 }
 
 const PageLayout = ({ pageContent }: IPageLayout): JSX.Element => (
-  <div className={global.container}>
+  <div className={`${global.container} ${styles.page}`}>
     <header>
       <h1>{pageContent.title}</h1>
       <h3>{pageContent.description}</h3>

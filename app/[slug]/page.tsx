@@ -3,7 +3,6 @@ import React from "react";
 
 import BasicLayout from "@/appComponents/BasicLayout";
 import BlogLayout from "@/appComponents/BlogLayout";
-import HomeLayout from "@/appComponents/HomeLayout";
 import PageLayout from "@/appComponents/PageLayout";
 import { layoutSelector } from "@/lib/helpers";
 import { readMarkdownFile } from "@/lib/markdown";
@@ -18,8 +17,6 @@ const DynamicPage = async ({ params }) => {
 
   const dynamicsLayouts: { [key: string]: any } = {
     page: PageLayout,
-    main: BasicLayout,
-    home: HomeLayout,
     blog: BlogLayout,
   };
 

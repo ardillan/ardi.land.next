@@ -3,6 +3,7 @@ import React from "react";
 import { IPostData } from "@/interfaces/IPost";
 import { getSortedPostsData } from "@/lib/posts";
 
+import styles from "./BlogLayout.module.css";
 import global from "./Global.module.css";
 import Posts from "./Posts";
 import SuperMarkdown from "./SuperMarkdown";
@@ -12,7 +13,7 @@ export default async function BlogLayout({
 }): Promise<JSX.Element> {
   const allPostsData = await getAllPostData();
   return (
-    <div className={global.container}>
+    <div className={`${global.container} ${styles.pageBlog}`}>
       <header>
         <h1>{pageContent.title}</h1>
         <h3>{pageContent.description}</h3>
