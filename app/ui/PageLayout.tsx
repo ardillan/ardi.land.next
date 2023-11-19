@@ -1,6 +1,6 @@
 import React from "react";
-import Markdown from "react-markdown";
 
+import SuperMarkdown from "@/appComponents/SuperMarkdown";
 import { IPostData } from "@/interfaces/IPost";
 
 import global from "../ui/Global.module.css";
@@ -18,7 +18,9 @@ const PageLayout = ({ pageContent }: IPageLayout): JSX.Element => (
       <h3>{pageContent.description}</h3>
     </header>
     <section>
-      <Markdown>{pageContent.contentHtml}</Markdown>
+      {pageContent.contentHtml && (
+        <SuperMarkdown markdownContent={pageContent.contentHtml} />
+      )}
     </section>
   </div>
 );

@@ -1,0 +1,74 @@
+.markdownContent {
+  width: calc(var(--main-container) - 300px);
+}
+
+div.code {
+  background: rgba(var(--color-space-darker)) !important;
+  font-size: 0.9rem !important;
+  border-radius: var(--border-radius);
+  border: 1px solid rgb(18 19 23);
+}
+
+.markdownContent a {
+  background: linear-gradient(
+    to right,
+    rgba(var(--color-honey-yellow)) 0%,
+    rgba(var(--color-red-rum)) 50%,
+    rgba(var(--color-kokiri-green)) 75%,
+    rgba(var(--color-calm-blue)) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 400;
+}
+
+.markdownContent > h2 {
+  font-weight: 400;
+  font-family: var(--fraiche-font);
+  color: rgba(var(--color-honey-yellow));
+}
+
+.markdownContent > figure {
+  padding: 0;
+  margin: 3rem 0;
+}
+
+.markdownContent > figure > img {
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow-default);
+}
+
+.markdownContent > figure > figcaption {
+  font-size: 12px;
+  text-align: center;
+  color: rgba(var(--color-snow-white), 0.5);
+}
+
+.markdownContent a:hover {
+  animation: rainbow 10s infinite;
+  animation-timing-function: linear;
+}
+
+.markdownContent blockquote {
+  padding: 1rem 3rem;
+  margin: 0;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgba(var(--color-honey-yellow)) rgba(var(--color-red-rum))
+    rgba(var(--color-kokiri-green)) rgba(var(--color-calm-blue));
+  background: rgba(var(--color-space-darker));
+}
+
+@keyframes rainbow {
+  0% {
+    background-position-x: 0px;
+  }
+
+  100% {
+    background-position-x: 1000px;
+  }
+}

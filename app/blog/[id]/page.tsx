@@ -2,12 +2,10 @@ import Head from "next/head";
 import Image from "next/image";
 import React from "react";
 import { Fragment } from "react";
-import Markdown from "react-markdown";
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import theme from "react-syntax-highlighter/dist/cjs/styles/prism/synthwave84";
 
 import BasicLayout from "@/appComponents/BasicLayout";
 import Date from "@/appComponents/Date";
+import SuperMarkdown from "@/appComponents/SuperMarkdown";
 import { getAllPostIds, getPostData } from "@/lib/posts";
 
 import global from "../../ui/Global.module.css";
@@ -63,64 +61,10 @@ export default async function Post({ params }) {
           </div>
         </header>
 
-        <section className={styles.content}>
-          <Markdown
-            components={{
-              code: function ({ ...props }) {
-                const { children, className, ...rest } = props;
-
-                const match = /language-(\w+)/.exec(className || "");
-                return match ? (
-                  <SyntaxHighlighter
-                    {...rest}
-                    PreTag="div"
-                    language={match[1]}
-                    style={theme}
-                    className={styles.code}
-                  >
-                    {String(children).replace(/\n$/, "")}
-                  </SyntaxHighlighter>
-                ) : (
-                  <code {...rest} className={className}>
-                    {children}
-                  </code>
-                );
-              },
-              p: function ({ ...props }) {
-                // This avoid having images within <p> elements
-                return typeof props.children === "object" ? (
-                  <>{props.children}</>
-                ) : (
-                  <p>{props.children}</p>
-                );
-              },
-              img: function ({ ...props }) {
-                if (!props.src) return;
-                return (
-                  <figure>
-                    <Image
-                      src={props.src}
-                      alt={props.alt ?? ""}
-                      title={props.alt}
-                      width={900}
-                      height={900}
-                      sizes="(max-width: 768px) 100vw"
-                      style={{
-                        objectFit: "contain",
-                        width: "100%",
-                        position: "relative",
-                      }}
-                    />
-                    {props.alt !== null ? (
-                      <figcaption>{props.alt}</figcaption>
-                    ) : null}
-                  </figure>
-                );
-              },
-            }}
-          >
-            {postData.contentHtml}
-          </Markdown>
+        <section>
+          {postData.contentHtml ? (
+            <SuperMarkdown markdownContent={postData.contentHtml} />
+          ) : null}
         </section>
       </article>
     </BasicLayout>

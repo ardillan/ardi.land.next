@@ -1,11 +1,11 @@
 import React from "react";
-import Markdown from "react-markdown";
 
 import { IPostData } from "@/interfaces/IPost";
 import { getSortedPostsData } from "@/lib/posts";
 
 import global from "./Global.module.css";
 import Posts from "./Posts";
+import SuperMarkdown from "./SuperMarkdown";
 
 export default async function BlogLayout({
   pageContent,
@@ -18,7 +18,9 @@ export default async function BlogLayout({
         <h3>{pageContent.description}</h3>
       </header>
       <section>
-        <Markdown>{pageContent.contentHtml}</Markdown>
+        {pageContent.contentHtml ? (
+          <SuperMarkdown markdownContent={pageContent.contentHtml} />
+        ) : null}
       </section>
       <Posts layout="images" allPostsData={allPostsData} />
     </div>
