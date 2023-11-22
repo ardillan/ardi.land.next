@@ -15,7 +15,6 @@ export default function transformImgSrc(options: TransformImgSrcProps) {
       });
 
       if (image) {
-        console.log("⭐️", image.url);
         const fileName = image.url.replace("./", "");
         image.url = `${imagesDirectory}/${id}/${fileName}`;
       }
