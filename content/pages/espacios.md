@@ -13,6 +13,8 @@ En este 2022 no he avanzado todo lo que sí me hubiese gustado. He andado juguet
 
 Apenas he escrito en mi blog y no he dedicado tiempo a formarme lo suficiente. Muestra de ello es esta entrada, que escribo en ~abril~ mayo, cuando debería haber sido como mucho en enero. En general, creo que podría haberlo hecho bastante mejor.
 
-![Sara, haciendo un puzzle](./a-link-to-the-past-2022-fotografia-44.jpg)
+![Hace años. Mi primer trabajo de oficina. 2009](./2009-06-01.png)
 
-![Monkey Island II](./a-link-to-the-past-2022-fotografia-45.jpg)
+![Mi portátil en un piso de alquiler. 2011.](./2011-07-01.jpg)
+
+![Mi antigua casa, durante la pandemia.](./2020-03-23.jpg)

@@ -3,7 +3,7 @@ import matter from "gray-matter";
 import path from "path";
 import { remark } from "remark";
 
-import { IMarkDownData } from "@/interfaces/IMarkdownData";
+import { IMarkDownData } from "@/interfaces/IMarkDownData";
 import transformImgSrc from "@/lib/transform-img-src";
 
 const pagesDirectory = path.join(process.cwd(), "content/pages/");
@@ -26,7 +26,10 @@ export const getPageData = async (
 
   // Use remark to convert markdown into HTML string
   const processedContent = await remark()
-    .use(transformImgSrc, { id })
+    .use(transformImgSrc, {
+      id: id,
+      imagesDirectory: "/pages",
+    })
     .process(matterResult.content);
   const contentHtml = processedContent.toString();
 

@@ -7,6 +7,11 @@ export const NAVIGATION: Array<INavigationLink> = [
     layout: "home",
   },
   {
+    title: "Cómo trabajo",
+    path: "/como-trabajo",
+    layout: "page",
+  },
+  {
     title: "Espacios",
     path: "/espacios",
     layout: "page",
