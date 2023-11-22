@@ -1,13 +1,13 @@
 import React from "react";
 
 import SuperMarkdown from "@/appComponents/SuperMarkdown";
-import { IPostData } from "@/interfaces/IPost";
+import { IMarkDownData } from "@/interfaces/IMarkDownData";
 
 import global from "../ui/Global.module.css";
 import styles from "../ui/PageLayout.module.css";
 
 interface IPageLayout {
-  pageContent: IPostData;
+  pageContent: IMarkDownData;
   home?: boolean;
   className?: object;
 }

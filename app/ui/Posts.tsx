@@ -4,22 +4,22 @@ import Link from "next/link";
 import React from "react";
 
 import Date from "@/appComponents/Date";
-import { IPostData } from "@/interfaces/IPost";
+import { IMarkDownData } from "@/interfaces/IMarkDownData";
 
 import styles from "./Posts.module.css";
 
 export type IDynamicPost = {
-  allPostData?: IPostData[];
+  allPostData?: IMarkDownData[];
 };
 
 export const PostsImages = ({
   allPostsData,
 }: {
-  allPostsData: IPostData[];
+  allPostsData: IMarkDownData[];
 }) => {
   return (
     <ul className={`${styles.default} ${styles.images}`}>
-      {allPostsData.map((post: IPostData) => {
+      {allPostsData.map((post: IMarkDownData) => {
         const featuredImagePath = `/posts/${
           post.id
         }/${post?.featuredImage?.replace("./", "")}`;
@@ -52,10 +52,14 @@ export const PostsImages = ({
   );
 };
 
-export const PostsList = ({ allPostsData }: { allPostsData: IPostData[] }) => {
+export const PostsList = ({
+  allPostsData,
+}: {
+  allPostsData: IMarkDownData[];
+}) => {
   return (
     <ul className={`${styles.default} ${styles.list}`}>
-      {allPostsData.map((post: IPostData) => {
+      {allPostsData.map((post: IMarkDownData) => {
         return (
           <li key={post.id}>
             <Link href={`/blog/${post.id}`}>

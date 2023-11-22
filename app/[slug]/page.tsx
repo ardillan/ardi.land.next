@@ -4,14 +4,14 @@ import React from "react";
 import BasicLayout from "@/appComponents/BasicLayout";
 import BlogLayout from "@/appComponents/BlogLayout";
 import PageLayout from "@/appComponents/PageLayout";
+import { getPageData } from "@/lib/getPageData";
 import { layoutSelector } from "@/lib/helpers";
-import { readMarkdownFile } from "@/lib/markdown";
 
 import Custom404 from "../not-found";
 
 const DynamicPage = async ({ params }) => {
   const { slug } = params;
-  const pageContent = await readMarkdownFile(slug);
+  const pageContent = await getPageData(slug);
 
   if (!pageContent) return <Custom404 />;
 

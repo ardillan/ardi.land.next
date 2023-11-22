@@ -1,6 +1,6 @@
 import React from "react";
 
-import { IPostData } from "@/interfaces/IPost";
+import { IMarkDownData } from "@/interfaces/IMarkDownData";
 import { getSortedPostsData } from "@/lib/posts";
 
 import styles from "./BlogLayout.module.css";
@@ -28,4 +28,5 @@ export default async function BlogLayout({
   );
 }
 
-const getAllPostData = async (): Promise<IPostData[]> => getSortedPostsData();
+const getAllPostData = async (): Promise<IMarkDownData[]> =>
+  getSortedPostsData();

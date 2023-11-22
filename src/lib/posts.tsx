@@ -3,13 +3,13 @@ import matter from "gray-matter";
 import path from "path";
 import { remark } from "remark";
 
-import { IPostData } from "@/interfaces/IPost";
+import { IMarkDownData } from "@/interfaces/IMarkDownData";
 
 import transformImgSrc from "./transform-img-src";
 
 const postsDirectory = path.join(process.cwd(), "content/posts/");
 
-export function getSortedPostsData(): IPostData[] {
+export function getSortedPostsData(): IMarkDownData[] {
   // Get file names under /posts
   const fileNames = fs.readdirSync(postsDirectory);
   const allPostsData = fileNames
@@ -63,7 +63,7 @@ export async function getAllPostIds() {
   });
 }
 
-export async function getPostData(id: string): Promise<IPostData> {
+export async function getPostData(id: string): Promise<IMarkDownData> {
   const fullPath = path.join(postsDirectory, `${id}.md`);
 
   const fileContents = fs.readFileSync(fullPath, "utf8");
@@ -77,7 +77,7 @@ export async function getPostData(id: string): Promise<IPostData> {
     .process(matterResult.content);
   const contentHtml = processedContent.toString();
 
-  const postData: IPostData = {
+  const postData: IMarkDownData = {
     id,
     contentHtml,
     title: matterResult.data.title,

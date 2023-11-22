@@ -3,23 +3,23 @@ import matter from "gray-matter";
 import path from "path";
 import { remark } from "remark";
 
-import { IPostData } from "@/interfaces/IPost";
+import { IMarkDownData } from "@/interfaces/IMarkdownData";
 import transformImgSrc from "@/lib/transform-img-src";
 
-const postsDirectory = path.join(process.cwd(), "content/pages/");
+const pagesDirectory = path.join(process.cwd(), "content/pages/");
 
-export const readMarkdownFile = async (
+export const getPageData = async (
   page: string
-): Promise<IPostData | null> => {
+): Promise<IMarkDownData | null> => {
   // Get file names under /posts
-  const fileNames = fs.readdirSync(postsDirectory);
+  const fileNames = fs.readdirSync(pagesDirectory);
 
   const fileName = fileNames.filter((file) => file === `${page}.md`)[0];
 
   if (fileName === undefined) return null;
 
   const id = fileName.replace(/\.md$/, "");
-  const fullPath = path.join(postsDirectory, fileName);
+  const fullPath = path.join(pagesDirectory, fileName);
   const fileContents = fs.readFileSync(fullPath, "utf8");
   // Use gray-matter to parse the post metadata section
   const matterResult = matter(fileContents);

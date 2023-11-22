@@ -1,4 +1,4 @@
-export type IPostData = {
+export type IMarkDownData = {
   id?: string;
   title?: string | undefined;
   subtitle?: string | undefined;
