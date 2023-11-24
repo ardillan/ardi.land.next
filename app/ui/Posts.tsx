@@ -81,7 +81,7 @@ const Posts = ({
   allPostsData,
   layout = "list",
 }: {
-  allPostsData: IPostData[];
+  allPostsData: IMarkDownData[];
   layout: string;
 }): JSX.Element => {
   const dynamicPosts: { [key: string]: any } = {
