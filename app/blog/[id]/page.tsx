@@ -6,7 +6,7 @@ import { Fragment } from "react";
 import BasicLayout from "@/appComponents/BasicLayout";
 import Date from "@/appComponents/Date";
 import SuperMarkdown from "@/appComponents/SuperMarkdown";
-import { getAllPostIds, getPostData } from "@/lib/posts";
+import { getAllPostIds, getPostData } from "@/lib/getPostData";
 
 import global from "../../ui/Global.module.css";
 import styles from "./Blog.module.css";

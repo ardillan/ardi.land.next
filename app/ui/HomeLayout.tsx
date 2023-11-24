@@ -3,7 +3,7 @@ import React from "react";
 import BasicLayout from "@/appComponents/BasicLayout";
 import Posts from "@/appComponents/Posts";
 import Welcome from "@/appComponents/Welcome";
-import { getSortedPostsData } from "@/lib/posts";
+import { getSortedPostsData } from "@/lib/getPostData";
 
 import global from "../ui/Global.module.css";
 

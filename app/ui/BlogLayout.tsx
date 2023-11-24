@@ -1,7 +1,7 @@
 import React from "react";
 
 import { IMarkDownData } from "@/interfaces/IMarkDownData";
-import { getSortedPostsData } from "@/lib/posts";
+import { getSortedPostsData } from "@/lib/getPostData";
 
 import styles from "./BlogLayout.module.css";
 import global from "./Global.module.css";
