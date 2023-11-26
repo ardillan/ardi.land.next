@@ -9,12 +9,12 @@
 
 .article > header > .meta h1 {
   font-family: var(--fraiche-font);
-  font-size: 5rem;
+  font-size: clamp(3rem, 10vw, 5rem);
+  line-height: clamp(2.5rem, 10vw, 4rem);
   color: rgba(var(--color-honey-yellow));
   padding: 0;
   margin-top: 0;
   margin-bottom: 1rem;
-  line-height: 4rem;
 }
 
 .article > header > .meta h2 {
@@ -57,4 +57,27 @@
   transition: all 0.3s;
   width: 290px;
   position: absolute;
+}
+
+@media (max-width: 768px) {
+  .article > header {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 0;
+    align-items: normal;
+    gap: 2rem;
+  }
+
+  .article > header > .image > img {
+    transform: rotate(0);
+    height: auto;
+  }
+
+  .article > header > .image:before {
+    display: none;
+  }
+
+  .article > header > div > .info {
+    width: auto;
+  }
 }
