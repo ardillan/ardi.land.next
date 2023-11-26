@@ -17,7 +17,8 @@
       "@/appComponents/*": ["./app/ui/*"],
       "@/styles/*": ["./src/styles/*"],
       "@/lib/*": ["./src/lib/*"],
-      "@/interfaces/*": ["./src/interfaces/*"]
+      "@/interfaces/*": ["./src/interfaces/*"],
+      "@/context/*": ["./app/context/*"]
     },
     "plugins": [
       {

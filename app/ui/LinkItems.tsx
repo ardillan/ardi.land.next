@@ -1,9 +1,8 @@
-"use client";
-
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React, { useState } from "react";
+import React from "react";
 
+import { useMobile } from "@/context/MobileContext";
 import { NAVIGATION } from "@/lib/constants";
 
 import styles from "./LinkItems.module.css";
@@ -21,9 +20,11 @@ const isActiveClass = (pathName: string): boolean => {
 };
 
 const LinkItems = (): JSX.Element => {
-  const [menuOpen, setIsOpen] = useState<boolean>(false);
+  const { isMenuOpen, toggleMenuMobile } = useMobile();
 
-  const handleClick = () => setIsOpen(!menuOpen);
+  const handleClick = () => {
+    toggleMenuMobile();
+  };
 
   return (
     <>
@@ -50,8 +51,8 @@ const LinkItems = (): JSX.Element => {
         </svg>
       </button>
       <ul
-        className={`${styles.items} ${menuOpen ? styles.open : styles.close}`}
-        style={{ display: menuOpen ? "flex" : "" }}
+        className={`${styles.items} ${isMenuOpen ? styles.open : styles.close}`}
+        style={{ display: isMenuOpen ? "flex" : "" }}
       >
         {NAVIGATION.map((link) => {
           return (
@@ -59,6 +60,7 @@ const LinkItems = (): JSX.Element => {
               <Link
                 className={isActiveClass(link.path) ? styles.active : ""}
                 href={link.path}
+                {...(isMenuOpen && { onClick: toggleMenuMobile })}
               >
                 {link.title}
               </Link>
