@@ -18,6 +18,9 @@
 
   /* Shadows */
   --box-shadow-default: 0 5px 5px rgb(13 20 37), 0 10px 10px rgba(0, 0, 0, 0.23);
+
+  /* Breakpoints */
+  --breakpoint-mobile: 768px;
 }
 
 html,

@@ -72,3 +72,13 @@ div.code {
     background-position-x: 1000px;
   }
 }
+
+@media (max-width: 768px) {
+  .markdownContent {
+    width: auto;
+  }
+
+  .markdownContent blockquote {
+    padding: 0 1rem;
+  }
+}

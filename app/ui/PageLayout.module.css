@@ -4,10 +4,11 @@
 
 .page > header > h1 {
   font-family: var(--fraiche-font);
-  font-size: 4rem;
+  font-size: clamp(3rem, 10vw, 5rem);
+  line-height: clamp(2.5rem, 10vw, 4rem);
   color: rgba(var(--color-honey-yellow));
   margin: 0;
-  padding: 0;
+  padding-bottom: 1rem;
 }
 
 .page > header > h3 {
