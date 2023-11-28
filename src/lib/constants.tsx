@@ -21,6 +21,11 @@ export const NAVIGATION: Array<INavigationLink> = [
     path: "/blog",
     layout: "blog",
   },
+  {
+    title: "Videojuegos",
+    path: "/videojuegos",
+    layout: "games",
+  },
 ];
 
 export const ARDI_BIRTHDAY = "Aug 23 1988 13:50:00 GMT+0200 (CEST)";

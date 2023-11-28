@@ -1,0 +1,26 @@
+.games {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 1rem;
+}
+.games > li {
+  background: rgba(var(--color-space-darker));
+  border-radius: var(--border-radius);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.games > li > span:nth-child(1) {
+  color: rgba(var(--color-honey-yellow));
+  font-size: 15px;
+}
+
+.games > li > span:nth-child(2) {
+  opacity: 0.6;
+  font-size: 13px;
+}
