@@ -64,7 +64,7 @@ export async function getAllPostIds() {
 }
 
 export async function getPostData(id: string): Promise<IMarkDownData> {
-  const fullPath = path.join(postsDirectory, `${id}.md`);
+  const fullPath = path.join(postsDirectory, `${decodeURIComponent(id)}.md`);
 
   const fileContents = fs.readFileSync(fullPath, "utf8");
 
