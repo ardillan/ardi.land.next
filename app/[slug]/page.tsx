@@ -37,7 +37,7 @@ export default DynamicPage;
 
 export async function generateStaticParams(): Promise<{ slug: string }[]> {
   const paths = await getAllPagesSlugs();
-  console.log("paths", paths);
+
   return paths.map((path) => {
     return {
       slug: path.params.slug,
