@@ -45,3 +45,15 @@ export const getPageData = async (
     category: matterResult.data.category,
   };
 };
+
+export async function getAllPagesSlugs() {
+  const fileNames = fs.readdirSync(pagesDirectory);
+
+  return fileNames.map((fileName: string) => {
+    return {
+      params: {
+        slug: fileName.replace(/\.md$/, ""),
+      },
+    };
+  });
+}

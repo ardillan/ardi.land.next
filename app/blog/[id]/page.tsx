@@ -6,7 +6,8 @@ import { Fragment } from "react";
 import BasicLayout from "@/appComponents/BasicLayout";
 import Date from "@/appComponents/Date";
 import SuperMarkdown from "@/appComponents/SuperMarkdown";
-import { getAllPostIds, getPostData } from "@/lib/getPostData";
+import { getAllPagesSlugs } from "@/lib/getPageData";
+import { getPostData } from "@/lib/getPostData";
 
 import global from "../../ui/Global.module.css";
 import styles from "./Blog.module.css";
@@ -70,11 +71,11 @@ export default async function Post({ params }) {
     </BasicLayout>
   );
 }
-export async function generateStaticParams(): Promise<{ id: string }[]> {
-  const paths = await getAllPostIds();
-  return paths.map((path) => {
+export async function generateStaticParams(): Promise<{ slug: string }[]> {
+  const pages = await getAllPagesSlugs();
+  return pages.map((page) => {
     return {
-      id: path.params.id,
+      slug: page.params.slug,
     };
   });
 }

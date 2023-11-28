@@ -3,8 +3,9 @@ import React from "react";
 
 import BasicLayout from "@/appComponents/BasicLayout";
 import BlogLayout from "@/appComponents/BlogLayout";
+import GamesLayout from "@/appComponents/GamesLayout";
 import PageLayout from "@/appComponents/PageLayout";
-import { getPageData } from "@/lib/getPageData";
+import { getAllPagesSlugs, getPageData } from "@/lib/getPageData";
 import { layoutSelector } from "@/lib/helpers";
 
 import Custom404 from "../not-found";
@@ -18,6 +19,7 @@ const DynamicPage = async ({ params }) => {
   const dynamicsLayouts: { [key: string]: any } = {
     page: PageLayout,
     blog: BlogLayout,
+    games: GamesLayout,
   };
 
   const layout = layoutSelector(slug);
@@ -32,3 +34,13 @@ const DynamicPage = async ({ params }) => {
 };
 
 export default DynamicPage;
+
+export async function generateStaticParams(): Promise<{ slug: string }[]> {
+  const paths = await getAllPagesSlugs();
+  console.log("paths", paths);
+  return paths.map((path) => {
+    return {
+      slug: path.params.slug,
+    };
+  });
+}
