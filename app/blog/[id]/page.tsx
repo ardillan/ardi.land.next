@@ -54,7 +54,7 @@ export default async function Post({ params }) {
               width={300}
               height={300}
               style={{
-                objectFit: "contain",
+                objectFit: "cover",
                 width: "100%",
                 position: "relative",
               }}
