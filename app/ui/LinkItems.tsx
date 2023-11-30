@@ -54,7 +54,9 @@ const LinkItems = (): JSX.Element => {
         className={`${styles.items} ${isMenuOpen ? styles.open : styles.close}`}
         style={{ display: isMenuOpen ? "flex" : "" }}
       >
-        {NAVIGATION.map((link) => {
+        {NAVIGATION.filter((link) =>
+          link.position.includes("MainNavigation")
+        ).map((link) => {
           return (
             <li key={link.title}>
               <Link

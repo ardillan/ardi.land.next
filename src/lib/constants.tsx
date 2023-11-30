@@ -1,30 +1,40 @@
 import { INavigationLink } from "@/interfaces/INavigationLink";
-
 export const NAVIGATION: Array<INavigationLink> = [
   {
     title: "Inicio",
     path: "/",
     layout: "home",
+    position: ["MainNavigation"],
+  },
+  {
+    title: "Sobre mí",
+    path: "/sobre-mi",
+    layout: "page",
+    position: ["MainNavigation"],
   },
   {
     title: "Cómo trabajo",
     path: "/como-trabajo",
     layout: "page",
+    position: [],
   },
   {
     title: "Espacios",
     path: "/espacios",
     layout: "page",
+    position: [],
   },
   {
     title: "Blog",
     path: "/blog",
     layout: "blog",
+    position: ["MainNavigation"],
   },
   {
     title: "Videojuegos",
     path: "/videojuegos",
     layout: "games",
+    position: [],
   },
 ];
 
