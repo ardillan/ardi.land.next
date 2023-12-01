@@ -8,7 +8,7 @@ import { getSortedPostsData } from "@/lib/getPostData";
 import global from "../ui/Global.module.css";
 
 const Home = (): JSX.Element => {
-  const allPostsData = getSortedPostsData();
+  const allPostsData = getSortedPostsData(5);
 
   return (
     <BasicLayout>

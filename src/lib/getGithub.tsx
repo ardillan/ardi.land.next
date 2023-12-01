@@ -1,5 +1,5 @@
 const getGitHub = async () => {
-  const githubResponse = await fetch(`${process.env.URL}/api/github`);
+  const githubResponse = await fetch(`${process.env.URL}/api/github/ardi.land`);
   const github = await githubResponse.json();
   return github;
 };

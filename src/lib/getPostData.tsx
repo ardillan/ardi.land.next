@@ -9,9 +9,10 @@ import transformImgSrc from "./transform-img-src";
 
 const postsDirectory = path.join(process.cwd(), "content/posts/");
 
-export function getSortedPostsData(): IMarkDownData[] {
+export function getSortedPostsData(size?: number): IMarkDownData[] {
   // Get file names under /posts
   const fileNames = fs.readdirSync(postsDirectory);
+  const postsSize = size !== undefined ? size : fileNames.length;
   const allPostsData = fileNames
     .map((fileName) => {
       // Remove unnecesary mac Files
@@ -39,7 +40,8 @@ export function getSortedPostsData(): IMarkDownData[] {
         category: matterResult.data.category,
       };
     })
-    .filter((el) => Object.keys(el).length !== 0);
+    .filter((el) => Object.keys(el).length !== 0)
+    .slice(0, postsSize);
 
   // Sort posts by date
   return allPostsData.sort((a, b) => {
