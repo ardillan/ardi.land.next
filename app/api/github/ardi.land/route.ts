@@ -4,7 +4,5 @@ export async function GET() {
   );
   const github = await githubRes.json();
 
-  console.log("🟠", github);
-
   return Response.json({ ...github });
 }
