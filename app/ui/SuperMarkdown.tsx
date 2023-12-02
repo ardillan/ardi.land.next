@@ -56,9 +56,6 @@ const SuperMarkdown = ({
               <a href={`#anchor_${title}`}>{title}</a>
             </h2>
           );
-          // return <h2 id={`#ref_${realTitle.value}`}>
-          //     <a href={`ref_${realTitle.value}`>{realTitle.value}</a>
-          //   </h2>
         },
         img: function ({ ...props }) {
           if (!props.src) return;
