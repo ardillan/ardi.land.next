@@ -12,7 +12,7 @@ const postsDirectory = path.join(process.cwd(), "content/posts/");
 export function getSortedPostsData(size?: number): IMarkDownData[] {
   // Get file names under /posts
   const fileNames = fs.readdirSync(postsDirectory);
-  const postsSize = size !== undefined ? size : fileNames.length;
+  const postsSize = size !== undefined ? size + 1 : fileNames.length;
   const allPostsData = fileNames
     .map((fileName) => {
       // Remove unnecesary mac Files
@@ -41,10 +41,11 @@ export function getSortedPostsData(size?: number): IMarkDownData[] {
       };
     })
     .filter((el) => Object.keys(el).length !== 0)
-    .slice(0, postsSize);
+    .slice(1, postsSize);
 
   // Sort posts by date
   return allPostsData.sort((a, b) => {
+    console.log(a.date, a.title, " ✏️", b.date, b.title);
     if (a.date < b.date) {
       return 1;
     } else {

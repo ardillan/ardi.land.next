@@ -1,6 +1,5 @@
 import React from "react";
 
-import { IMarkDownData } from "@/interfaces/IMarkDownData";
 import { getSortedPostsData } from "@/lib/getPostData";
 
 import styles from "./BlogLayout.module.css";
@@ -11,7 +10,7 @@ import SuperMarkdown from "./SuperMarkdown";
 export default async function BlogLayout({
   pageContent,
 }): Promise<JSX.Element> {
-  const allPostsData = await getAllPostData();
+  const allPostsData = getSortedPostsData();
   return (
     <div className={`${global.container} ${styles.pageBlog}`}>
       <header>
@@ -27,6 +26,3 @@ export default async function BlogLayout({
     </div>
   );
 }
-
-const getAllPostData = async (): Promise<IMarkDownData[]> =>
-  getSortedPostsData();
