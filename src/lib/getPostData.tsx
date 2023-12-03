@@ -45,7 +45,6 @@ export function getSortedPostsData(size?: number): IMarkDownData[] {
 
   // Sort posts by date
   return allPostsData.sort((a, b) => {
-    console.log(a.date, a.title, " ✏️", b.date, b.title);
     if (a.date < b.date) {
       return 1;
     } else {
