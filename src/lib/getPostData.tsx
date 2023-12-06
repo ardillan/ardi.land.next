@@ -12,7 +12,7 @@ const postsDirectory = path.join(process.cwd(), "content/posts/");
 export function getSortedPostsData(size?: number): IMarkDownData[] {
   // Get file names under /posts
   const fileNames = fs.readdirSync(postsDirectory);
-  const postsSize = size !== undefined ? size + 1 : fileNames.length;
+  const postsSize = size !== undefined ? size : fileNames.length;
   const allPostsData = fileNames
     .map((fileName) => {
       // Remove unnecesary mac Files
