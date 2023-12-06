@@ -40,17 +40,18 @@ export function getSortedPostsData(size?: number): IMarkDownData[] {
         category: matterResult.data.category,
       };
     })
-    .filter((el) => Object.keys(el).length !== 0)
-    .slice(1, postsSize);
+    .filter((el) => Object.keys(el).length !== 0);
 
   // Sort posts by date
-  return allPostsData.sort((a, b) => {
-    if (a.date < b.date) {
-      return 1;
-    } else {
-      return -1;
-    }
-  });
+  return allPostsData
+    .sort((a, b) => {
+      if (a.date < b.date) {
+        return 1;
+      } else {
+        return -1;
+      }
+    })
+    .slice(0, postsSize);
 }
 
 export async function getAllPostIds() {
