@@ -5,6 +5,7 @@ import React from "react";
 import Markdown from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import theme from "react-syntax-highlighter/dist/cjs/styles/prism/synthwave84";
+import remarkUnwrapImages from "remark-unwrap-images";
 
 import styles from "./SuperMarkdown.module.css";
 
@@ -19,6 +20,7 @@ const SuperMarkdown = ({
 }): JSX.Element => {
   return (
     <Markdown
+      remarkPlugins={[remarkUnwrapImages]}
       components={{
         code: function ({ ...props }) {
           const { children, className, ...rest } = props;
@@ -38,15 +40,6 @@ const SuperMarkdown = ({
             <code {...rest} className={className}>
               {children}
             </code>
-          );
-        },
-        p: function ({ ...props }) {
-          // This avoid having images within <p> elements
-          // TODO: Fix this. Paragraphs are not correctly added
-          return typeof props.children === "object" ? (
-            <>{props.children}</>
-          ) : (
-            <p>{props.children}</p>
           );
         },
         h2: function ({ ...props }) {
