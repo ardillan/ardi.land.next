@@ -2,6 +2,19 @@
   width: calc(var(--main-container) - 300px);
 }
 
+.markdownContent > pre {
+  background: rgba(var(--color-space-darker)) !important;
+  border-radius: 5px;
+}
+
+.markdownContent > p > code {
+  background: rgba(var(--color-space-darker), 0.8) !important;
+  border-radius: 5px;
+  font-size: 14px;
+  color: rgba(var(--color-honey-yellow));
+  padding: 0.5rem;
+}
+
 div.code {
   background: rgba(var(--color-space-darker)) !important;
   font-size: 0.9rem !important;
