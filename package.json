@@ -11,7 +11,6 @@
     "lint-fix": "eslint --fix app/** src/interfaces src/lib",
     "prepare": "husky install"
   },
-  "type": "module",
   "dependencies": {
     "@notionhq/client": "^2.2.13",
     "date-fns": "^2.30.0",
