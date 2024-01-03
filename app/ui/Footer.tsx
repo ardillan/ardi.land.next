@@ -6,14 +6,17 @@ import { formatDate } from "@/lib/helpers";
 
 import styles from "./Footer.module.css";
 
+interface IGithub {
+  pushed_at: string;
+}
+
 const Footer = (): JSX.Element => {
-  const [githubData, setGithubData] = useState<null>(null);
+  const [githubData, setGithubData] = useState<IGithub | null>(null);
 
   useEffect(() => {
     const getData = async () => {
       const response = await fetch("/api/github/ardi.land");
       const data = await response.json();
-      console.log(data);
       setGithubData(data);
     };
     getData();
@@ -23,7 +26,7 @@ const Footer = (): JSX.Element => {
     <footer className={styles.footer}>
       <p>Esta web está hecha con NextJS</p>
       <p>Ardi Land 2023 </p>
-      {githubData !== null ? (
+      {githubData != null ? (
         <small>
           Última actualización el {formatDate(githubData.pushed_at)}
         </small>

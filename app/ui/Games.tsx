@@ -5,8 +5,17 @@ import React, { useEffect, useState } from "react";
 import styles from "./Games.module.css";
 import CustomTooltip from "./Tooltip";
 
+interface INotionGames {
+  results: [
+    {
+      id: string;
+      properties: [Nombre: string, Plataforma: string, Jugado: boolean];
+    }
+  ];
+}
+
 const Games = (): JSX.Element => {
-  const [notionGames, setNotionGames] = useState(null);
+  const [notionGames, setNotionGames] = useState<INotionGames | null>(null);
 
   useEffect(() => {
     const getData = async () => {
