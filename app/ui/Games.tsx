@@ -1,17 +1,29 @@
-import React from "react";
+"use client";
 
-import getNotionGames from "@/lib/getGames";
+import React, { useEffect, useState } from "react";
 
 import styles from "./Games.module.css";
 import CustomTooltip from "./Tooltip";
 
-const Games = async (): Promise<JSX.Element> => {
-  const allNotionGames = await getNotionGames();
+const Games = (): JSX.Element => {
+  const [notionGames, setNotionGames] = useState(null);
+
+  useEffect(() => {
+    const getData = async () => {
+      const response = await fetch("/api/notion");
+      const data = await response.json();
+      console.log(data);
+      setNotionGames(data);
+    };
+    getData();
+  }, []);
+
+  console.log(notionGames);
   return (
     <>
       <ul className={styles.games}>
-        {allNotionGames &&
-          allNotionGames.results.map((game) => {
+        {notionGames !== null &&
+          notionGames.results.map((game) => {
             return (
               <li key={game.id}>
                 <span>{game.properties["Nombre"].title[0].plain_text}</span>
