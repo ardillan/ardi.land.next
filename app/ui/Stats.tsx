@@ -15,7 +15,7 @@ const Stats = (): JSX.Element => {
 
   return (
     <div className={styles.stats}>
-      <Link href="/sobre-mi" {...(isMenuOpen && { onClick: toggleMenuMobile })}>
+      <Link href="/" {...(isMenuOpen && { onClick: toggleMenuMobile })}>
         <img src="/sad-ardi.png" alt="Autorretrato en estilo pixel art" />
       </Link>
       <div className={styles.indicators}>
