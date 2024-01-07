@@ -16,13 +16,13 @@ export const NAVIGATION: Array<INavigationLink> = [
     title: "Cómo trabajo",
     path: "/como-trabajo",
     layout: "page",
-    position: [],
+    position: ["Footer"],
   },
   {
     title: "Espacios",
     path: "/espacios",
     layout: "page",
-    position: [],
+    position: ["Footer"],
   },
   {
     title: "Blog",
@@ -34,7 +34,7 @@ export const NAVIGATION: Array<INavigationLink> = [
     title: "Videojuegos",
     path: "/videojuegos",
     layout: "games",
-    position: [],
+    position: ["Footer"],
   },
 ];
 
