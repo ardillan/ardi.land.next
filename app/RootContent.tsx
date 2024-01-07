@@ -13,6 +13,9 @@ const RootContent = ({ children }: { children: JSX.Element }) => {
 
   return (
     <html lang="es">
+      <head>
+        <link rel="icon" href="/favicon.png" type="image/png" sizes="64x64" />
+      </head>
       <body
         className={`${fontInter.variable} ${fontFraiche.variable}`}
         style={{ overflow: isMenuOpen ? "hidden" : "initial" }}
