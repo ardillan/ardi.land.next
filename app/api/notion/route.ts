@@ -1,5 +1,5 @@
 import { Client } from "@notionhq/client";
-export const revalidate = false;
+export const revalidate = true;
 
 export async function GET() {
   const notion = new Client({

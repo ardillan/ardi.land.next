@@ -18,16 +18,13 @@ const Games = (): JSX.Element => {
   const [notionGames, setNotionGames] = useState<INotionGames | null>(null);
 
   useEffect(() => {
-    const getData = async () => {
+    (async () => {
       const response = await fetch("/api/notion");
       const data = await response.json();
-      console.log(data);
       setNotionGames(data);
-    };
-    getData();
+    })();
   }, []);
 
-  console.log(notionGames);
   return (
     <>
       <ul className={styles.games}>
