@@ -1,4 +1,4 @@
-import { ARDI_BIRTHDAY, NAVIGATION } from "@/lib/constants";
+import { ARDI, NAVIGATION } from "@/lib/constants";
 
 export const formatDateTime = (commitTime: string): string => {
   return new Date(commitTime).toLocaleDateString("es-ES", {
@@ -38,7 +38,7 @@ export const formatDate = (
 };
 
 export const getAge = (): number => {
-  const birthDay = new Date(ARDI_BIRTHDAY);
+  const birthDay = new Date(ARDI.birthday);
   const today = new Date();
   const ageDate = new Date(+today - +birthDay);
   return Math.abs(ageDate.getUTCFullYear() - 1970);

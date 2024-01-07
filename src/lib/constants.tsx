@@ -38,4 +38,12 @@ export const NAVIGATION: Array<INavigationLink> = [
   },
 ];
 
-export const ARDI_BIRTHDAY = "Aug 23 1988 13:50:00 GMT+0200 (CEST)";
+export const ARDI = {
+  web: {
+    title: "Ardi.Land",
+    description: "Página personal de Ardi",
+  },
+  name: "Adrián Alcorta Puente",
+  nickname: "Ardi",
+  birthday: "Aug 23 1988 13:50:00 GMT+0200 (CEST)",
+};
