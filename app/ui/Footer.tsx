@@ -1,7 +1,10 @@
 "use client";
 
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
+import { INavigationLink } from "@/interfaces/INavigationLink";
+import { NAVIGATION } from "@/lib/constants";
 import { formatDate } from "@/lib/helpers";
 
 import styles from "./Footer.module.css";
@@ -31,6 +34,15 @@ const Footer = (): JSX.Element => {
           Última actualización el {formatDate(githubData.pushed_at)}
         </small>
       ) : null}
+      <ul className={styles.links}>
+        {NAVIGATION.filter((link: INavigationLink) =>
+          link.position.includes("Footer")
+        ).map((link: INavigationLink) => (
+          <Link key={link.path} href={link.path}>
+            <li>{link.title}</li>
+          </Link>
+        ))}
+      </ul>
     </footer>
   );
 };

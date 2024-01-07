@@ -10,3 +10,16 @@
   padding: 0;
   margin: 0;
 }
+
+.footer > ul.links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+}
+
+.footer > ul.links > a {
+  color: rgba(var(--color-snow-white));
+  text-decoration: none;
+  font-size: 0.7rem;
+}
