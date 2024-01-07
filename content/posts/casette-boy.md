@@ -21,8 +21,13 @@ En principio he hecho **el modelo para Game Boy**. Muchos de los elementos que c
 [Puedes descargar aquí la plantilla en .psd](https://www.icloud.com/iclouddrive/08HqG_yNPK3e9a3Ximb_1IoUw#Game_Boy_-_Plantilla)
 
 ![Diseño de una de las carátulas](./casette-boy-2.jpg)
+
 ![Carátula de ejemplo](./casette-boy-3.jpg)
+
 ![Carátula de ejemplo](./casette-boy-4.jpg)
+
 ![Carátula de ejemplo](./casette-boy-5.jpg)
+
 ![Carátula de ejemplo](./casette-boy-6.jpg)
+
 ![Carátula de ejemplo](./casette-boy-7.jpg)
