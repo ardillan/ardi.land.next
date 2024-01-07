@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 import { useMobile } from "@/context/MobileContext";
-import { ARDI_BIRTHDAY } from "@/lib/constants";
+import { ARDI } from "@/lib/constants";
 import { getAge, getExperience } from "@/lib/helpers";
 
 import styles from "./Stats.module.css";
@@ -10,7 +10,7 @@ import styles from "./Stats.module.css";
 const Stats = (): JSX.Element => {
   const age = getAge();
   const hearts = [1, 2, 3, 4];
-  const experience = getExperience(ARDI_BIRTHDAY);
+  const experience = getExperience(ARDI.birthday);
   const { isMenuOpen, toggleMenuMobile } = useMobile();
 
   return (

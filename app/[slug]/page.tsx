@@ -5,10 +5,25 @@ import BasicLayout from "@/appComponents/BasicLayout";
 import BlogLayout from "@/appComponents/BlogLayout";
 import GamesLayout from "@/appComponents/GamesLayout";
 import PageLayout from "@/appComponents/PageLayout";
+import { ARDI } from "@/lib/constants";
 import { getAllPagesSlugs, getPageData } from "@/lib/getPageData";
 import { layoutSelector } from "@/lib/helpers";
 
 import Custom404 from "../not-found";
+
+export async function generateMetadata({ params }) {
+  const { slug } = params;
+  const pageContent = await getPageData(slug);
+  if (!pageContent) return;
+
+  const { title, description } = pageContent;
+
+  return {
+    title: title,
+    description: description,
+    author: ARDI.nickname,
+  };
+}
 
 const DynamicPage = async ({ params }) => {
   const { slug } = params;

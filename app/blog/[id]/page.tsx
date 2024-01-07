@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Image from "next/image";
 import React from "react";
 import { Fragment } from "react";
@@ -6,11 +5,26 @@ import { Fragment } from "react";
 import BasicLayout from "@/appComponents/BasicLayout";
 import Date from "@/appComponents/Date";
 import SuperMarkdown from "@/appComponents/SuperMarkdown";
+import { ARDI } from "@/lib/constants";
 import { getAllPagesSlugs } from "@/lib/getPageData";
 import { getPostData } from "@/lib/getPostData";
 
 import global from "../../ui/Global.module.css";
 import styles from "./Blog.module.css";
+
+export async function generateMetadata({ params }) {
+  const { id } = params;
+  const postData = await getPostData(id);
+  if (!postData) return;
+
+  const { title, description } = postData;
+
+  return {
+    title: `Blog | ${title}`,
+    description: description,
+    author: ARDI.nickname,
+  };
+}
 
 export default async function Post({ params }) {
   const { id } = params;
@@ -22,10 +36,6 @@ export default async function Post({ params }) {
 
   return (
     <BasicLayout>
-      <Head>
-        <title>{postData.title}</title>
-      </Head>
-
       <article className={`${styles.article} ${global.container}`}>
         <header>
           <div className={styles.meta}>
