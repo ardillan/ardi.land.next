@@ -1,3 +1,5 @@
+export const revalidate = true;
+
 export async function GET() {
   const githubRes = await fetch(
     "https://api.github.com/repos/ardillan/ardi.land.next"
