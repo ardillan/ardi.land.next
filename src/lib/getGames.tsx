@@ -1,6 +1,7 @@
+import { getBaseURL } from "./helpers";
+
 const getNotionGames = async () => {
-  const baseURL =
-    "https://ardi-land-next.vercel.app" || "http://localhost:3000";
+  const baseURL = getBaseURL();
   const notionGamesResponse = await fetch(`${baseURL}/api/notion`, {
     next: { revalidate: 10 },
   });

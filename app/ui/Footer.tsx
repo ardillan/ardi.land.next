@@ -1,30 +1,15 @@
-"use client";
-
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 import { INavigationLink } from "@/interfaces/INavigationLink";
 import { NAVIGATION } from "@/lib/constants";
+import getGitHub from "@/lib/getGithub";
 import { formatDate } from "@/lib/helpers";
 
 import styles from "./Footer.module.css";
 
-interface IGithub {
-  pushed_at: string;
-}
-
-const Footer = (): JSX.Element => {
-  const [githubData, setGithubData] = useState<IGithub | null>(null);
-
-  useEffect(() => {
-    const getData = async () => {
-      const response = await fetch("/api/github/ardi.land");
-      const data = await response.json();
-      setGithubData(data);
-    };
-    getData();
-  }, []);
-
+const Footer = async (): Promise<JSX.Element> => {
+  const githubData = await getGitHub();
   return (
     <footer className={styles.footer}>
       <p>Esta web está hecha con NextJS</p>

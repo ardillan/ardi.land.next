@@ -85,3 +85,6 @@ export function getExperience(birthdateString: string): number {
 
   return 365 - daysLeft;
 }
+
+export const getBaseURL = (): string =>
+  process.env.BASE_URL ?? "https://ardi-land-next.vercel.app";
