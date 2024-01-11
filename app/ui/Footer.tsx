@@ -10,10 +10,11 @@ import styles from "./Footer.module.css";
 
 const Footer = async (): Promise<JSX.Element> => {
   const githubData = await getGitHub();
+  const getYear = new Date();
   return (
     <footer className={styles.footer}>
       <p>Esta web está hecha con NextJS</p>
-      <p>Ardi Land 2023 </p>
+      <p> {`Ardi Land ${getYear.getFullYear()}`} </p>
       {githubData != null ? (
         <small>
           Última actualización el {formatDate(githubData.pushed_at)}
