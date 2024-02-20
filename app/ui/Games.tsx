@@ -6,13 +6,15 @@ import styles from "./Games.module.css";
 import CustomTooltip from "./Tooltip";
 
 const Games = async (): Promise<JSX.Element> => {
-  const notionGames = await getNotionGames();
+  const notionGames = await getNotionGames().then(async (res) => {
+    return await res.json();
+  });
 
   return (
     <>
       <ul className={styles.games}>
         {notionGames !== null &&
-          notionGames.results.map((game) => {
+          notionGames.map((game) => {
             return (
               <li key={game.id}>
                 <span>{game.properties["Nombre"].title[0].plain_text}</span>
