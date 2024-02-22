@@ -63,6 +63,9 @@ Para desarrollar utilizo **Visual Studio Code**. He probado Sublime, Atom, Brack
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
 ```
