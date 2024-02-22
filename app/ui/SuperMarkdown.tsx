@@ -10,15 +10,11 @@ import remarkUnwrapImages from "remark-unwrap-images";
 
 import styles from "./SuperMarkdown.module.css";
 
-export type ISuperMarkdonw = {
+export type ISuperMarkdown = {
   markdownContent: string;
 };
 
-const SuperMarkdown = ({
-  markdownContent,
-}: {
-  markdownContent: string;
-}): JSX.Element => {
+const SuperMarkdown = ({ markdownContent }: ISuperMarkdown): JSX.Element => {
   return (
     <Markdown
       remarkPlugins={[remarkUnwrapImages, remarkGfm]}
