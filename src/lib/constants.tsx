@@ -21,7 +21,7 @@ export const NAVIGATION: Array<INavigationLink> = [
   {
     title: "Espacios",
     path: "/espacios",
-    layout: "page",
+    layout: "panoramix",
     position: ["Footer"],
   },
   {
