@@ -33,7 +33,7 @@ category:
 
 ![Mi iMac en su última época](./2018-01-01.jpg)
 
-![Mi portátil junto al de Paulo](./2017-01-01.jpg)
+![Mi portátil junto al de Paulo](./2017-01-01.png)
 
 ![Mi habitación, hace años. 2012](./2012-01-02.jpg)
 
