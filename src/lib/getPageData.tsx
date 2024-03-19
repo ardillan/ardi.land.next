@@ -7,6 +7,7 @@ import { IMarkDownData } from "@/interfaces/IMarkDownData";
 import transformImgSrc from "@/lib/transform-img-src";
 
 const pagesDirectory = path.join(process.cwd(), "content/pages/");
+const allContentDirectory = path.join(process.cwd(), "content/");
 
 export const getPageData = async (
   page: string
@@ -46,14 +47,25 @@ export const getPageData = async (
   };
 };
 
-export async function getAllPagesSlugs() {
-  const fileNames = fs.readdirSync(pagesDirectory);
+type IPageSlug = {
+  params: {
+    slug: string;
+    folder: string;
+  };
+}[];
 
-  return fileNames.map((fileName: string) => {
-    return {
-      params: {
-        slug: fileName.replace(/\.md$/, ""),
-      },
-    };
-  });
+export async function getAllPagesSlugs(): Promise<IPageSlug> {
+  const allPaths = fs
+    .readdirSync(allContentDirectory, {
+      withFileTypes: true,
+      recursive: true,
+    })
+    .filter((file) => /\.md$/.test(file.name));
+
+  return allPaths.map((file) => ({
+    params: {
+      slug: file.name.replace(/\.md$/, ""),
+      folder: file.path,
+    },
+  }));
 }
