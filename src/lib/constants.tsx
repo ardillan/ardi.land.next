@@ -42,6 +42,7 @@ export const ARDI = {
   web: {
     title: "Ardi.Land",
     description: "Página personal de Ardi",
+    url: "https://www.ardi.land",
   },
   name: "Adrián Alcorta Puente",
   nickname: "Ardi",
