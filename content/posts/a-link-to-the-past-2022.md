@@ -27,6 +27,8 @@ También he tenido la oportunidad de cambiar de teclado. Aunque esto quizá suen
 
 Por lo demás, afronto este año con energía, mirando de reojo al pasado para no cometer los mismos errores.
 
+<div>
+
 ![Mi teclado mecánico](./a-link-to-the-past-2022-desarrollo-1.jpg)
 
 ![Una foto de las calles de Ütretch](./a-link-to-the-past-2022-desarrollo-3.jpg)
@@ -34,6 +36,8 @@ Por lo demás, afronto este año con energía, mirando de reojo al pasado para n
 ![Mi escritorio](./a-link-to-the-past-2022-desarrollo-4.jpg)
 
 ![Varias pegatinas y acreditación del congreso Fronteers](./a-link-to-the-past-2022-desarrollo-2.jpg)
+
+</div>
 
 ## 🎤 Lo de los podcast
 
@@ -43,6 +47,8 @@ En cuanto a podcast tampoco he innovado bastante. Me sigo encontrando muy cómod
 
 En lo musical tengo varias cosas que decir. He visto a Rodrigo Cuevas, Baiuca, Viva Belgrado y Envy. He podido asistir a varios conciertos durante en año presencialmente, algo que había perdido y que por fin he podido recuperar. No he parado de escuchar [Delta Sleep](https://deltasleep.bandcamp.com/album/twin-galaxies-2) y he descubierto bandas nuevas como Casapalma y Uruna. A Wilhelm Scream sacaron disco y he descubierto un álbum de 1976 titulado **Plantasia** (gracias a mi amigo César), dedicado integramente a las plantas. Además de todo esto, he diseñado un vinilo para mis amigos de [Eretia](https://eretia.bandcamp.com/album/quietud).
 
+<div>
+
 ![Diseño del disco para Eretia](./a-link-to-the-past-2022-musica-01.jpg)
 
 ![Portada del disco Plantasía](./a-link-to-the-past-2022-musica-02.jpg)
@@ -50,6 +56,8 @@ En lo musical tengo varias cosas que decir. He visto a Rodrigo Cuevas, Baiuca, V
 ![Baiuca en concierto](./a-link-to-the-past-2022-musica-03.jpg)
 
 ![Portada del disco Plantasía](./a-link-to-the-past-2022-musica-04.jpg)
+
+</div>
 
 ## 👾 Lo de los videojuegos
 
