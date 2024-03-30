@@ -5,6 +5,7 @@ import React from "react";
 import Markdown from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import theme from "react-syntax-highlighter/dist/cjs/styles/prism/synthwave84";
+import rehypeRaw from "rehype-raw";
 import remarkGfm from "remark-gfm";
 import remarkUnwrapImages from "remark-unwrap-images";
 
@@ -17,6 +18,7 @@ export type ISuperMarkdown = {
 const SuperMarkdown = ({ markdownContent }: ISuperMarkdown): JSX.Element => {
   return (
     <Markdown
+      rehypePlugins={[rehypeRaw]}
       remarkPlugins={[remarkUnwrapImages, remarkGfm]}
       components={{
         code: function ({ ...props }) {
