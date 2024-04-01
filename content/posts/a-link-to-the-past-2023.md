@@ -53,13 +53,13 @@ Aquí tengo mucho que contar. No porque haya escuchado muchísima música, que t
 
 <div>
 
-![Medussa en el C.S Ítaca](./a-link-to-the-past-2023-musica-02.jpeg)
+![Medussa en el C.S Ítaca](./a-link-to-the-past-2023-musica-02.jpg)
 
-![Xosé Lois Romero e Aliboria en Cabuérniga Folk](./a-link-to-the-past-2023-musica-03.jpeg)
+![Xosé Lois Romero e Aliboria en Cabuérniga Folk](./a-link-to-the-past-2023-musica-03.jpg)
 
-![Uruna en La Lleldería](./a-link-to-the-past-2023-musica-04.jpeg)
+![Uruna en La Lleldería](./a-link-to-the-past-2023-musica-04.jpg)
 
-![Zaborra en el Dobra Fest](./a-link-to-the-past-2023-musica-06.jpeg)
+![Zaborra en el Dobra Fest](./a-link-to-the-past-2023-musica-06.jpg)
 
 </div>
 
@@ -67,13 +67,13 @@ A parte de todo esto, en el **Espacio Creativo J.M Illera** han ido realizando c
 
 <div>
 
-![Eretia en el Espacio Creativo J.M Illera](./a-link-to-the-past-2023-musica-01.jpeg)
+![Eretia en el Espacio Creativo J.M Illera](./a-link-to-the-past-2023-musica-01.jpg)
 
-![Bifäz en el Espacio Creativo J.M Illera](./a-link-to-the-past-2023-musica-08.jpeg)
+![Bifäz en el Espacio Creativo J.M Illera](./a-link-to-the-past-2023-musica-08.jpg)
 
-![DJ UVE y Van Deep en el Espacio Creativo J.M Illera](./a-link-to-the-past-2023-musica-05.jpeg)
+![DJ UVE y Van Deep en el Espacio Creativo J.M Illera](./a-link-to-the-past-2023-musica-05.jpg)
 
-![Repión en Verduleras Fest](./a-link-to-the-past-2023-musica-07.jpeg)
+![Repión en Verduleras Fest](./a-link-to-the-past-2023-musica-07.jpg)
 
 </div>
 
@@ -165,13 +165,13 @@ Me siento bastante contento de haber podido llevar esto a cabo ya que nunca hab�
 
 <div>
 
-![Cartel de 30 días en Bici](./a-link-to-the-past-2023-09.jpeg)
+![Cartel de 30 días en Bici](./a-link-to-the-past-2023-09.jpg)
 
-![Conferencia de Marcos Pereda](./a-link-to-the-past-2023-13.jpeg)
+![Conferencia de Marcos Pereda](./a-link-to-the-past-2023-13.jpg)
 
-![Viaje por la Senda Ciclable hasta Suances](./a-link-to-the-past-2023-12.jpeg)
+![Viaje por la Senda Ciclable hasta Suances](./a-link-to-the-past-2023-12.jpg)
 
-![Todas las bicicletas que tuve, de Power Paola](./a-link-to-the-past-2023-11.jpeg)
+![Todas las bicicletas que tuve, de Power Paola](./a-link-to-the-past-2023-11.jpg)
 
 </div>
 
@@ -191,54 +191,54 @@ El resto de cosas podría resumirlo en un listado:
 
 <div>
 
-![Árbol de La Vijanera](./a-link-to-the-past-2023-02.jpeg)
+![Árbol de La Vijanera](./a-link-to-the-past-2023-02.jpg)
 
-![Una panorámica desde Suances](./a-link-to-the-past-2023-06.jpeg)
+![Una panorámica desde Suances](./a-link-to-the-past-2023-06.jpg)
 
 ![La Pepuca, la bicicleta de mi abuelo](./a-link-to-the-past-2023-08.jpg)
 
-![Subida al glaciar de Kitzsteinhorn, en Austria](./a-link-to-the-past-2023-07.jpeg)
+![Subida al glaciar de Kitzsteinhorn, en Austria](./a-link-to-the-past-2023-07.jpg)
 
 </div>
 
-![La Ruina](./a-link-to-the-past-2023-03.jpeg)
+![La Ruina](./a-link-to-the-past-2023-03.jpg)
 
-![Disfrutando del amanecer de camino a la oficina](./a-link-to-the-past-2023-26.jpeg)
+![Disfrutando del amanecer de camino a la oficina](./a-link-to-the-past-2023-26.jpg)
 
-![Una vista del cohete de Tintín, en el aeropuerto de Bruselas](./a-link-to-the-past-2023-04.jpeg)
+![Una vista del cohete de Tintín, en el aeropuerto de Bruselas](./a-link-to-the-past-2023-04.jpg)
 
-![Roscón de Reyes](./a-link-to-the-past-2023-01.jpeg)
+![Roscón de Reyes](./a-link-to-the-past-2023-01.jpg)
 
-![Clear se actualizó este año](./a-link-to-the-past-2023-05.jpeg)
+![Clear se actualizó este año](./a-link-to-the-past-2023-05.jpg)
 
-![Cambiando un pinchazo de mi rueda](./a-link-to-the-past-2023-10.jpeg)
+![Cambiando un pinchazo de mi rueda](./a-link-to-the-past-2023-10.jpg)
 
-![Un pastel de cumpleaños. Para hablar en la cua-cua lengua.](./a-link-to-the-past-2023-14.jpeg)
+![Un pastel de cumpleaños. Para hablar en la cua-cua lengua.](./a-link-to-the-past-2023-14.jpg)
 
-![Autorretrato en el Bar "Las Picas"](./a-link-to-the-past-2023-18.jpeg)
+![Autorretrato en el Bar "Las Picas"](./a-link-to-the-past-2023-18.jpg)
 
-![Apple Keynote. Con un batido de brócoli y unos donetes](./a-link-to-the-past-2023-16.jpeg)
+![Apple Keynote. Con un batido de brócoli y unos donetes](./a-link-to-the-past-2023-16.jpg)
 
-![Un retrato en el que aparezco con La Pepuca](./a-link-to-the-past-2023-17.jpeg)
+![Un retrato en el que aparezco con La Pepuca](./a-link-to-the-past-2023-17.jpg)
 
-![Libro: La enciclopedia de Game Boy](./a-link-to-the-past-2023-15.jpeg)
+![Libro: La enciclopedia de Game Boy](./a-link-to-the-past-2023-15.jpg)
 
-![Disfrutando de un café en La Lleldería](./a-link-to-the-past-2023-19.jpeg)
+![Disfrutando de un café en La Lleldería](./a-link-to-the-past-2023-19.jpg)
 
-![Exposición de La Barrada, en la Casona de Tudanca](./a-link-to-the-past-2023-20.jpeg)
+![Exposición de La Barrada, en la Casona de Tudanca](./a-link-to-the-past-2023-20.jpg)
 
-![Libro: La gran Ciclopedia ilustrada](./a-link-to-the-past-2023-21.jpeg)
+![Libro: La gran Ciclopedia ilustrada](./a-link-to-the-past-2023-21.jpg)
 
-![Feria del Tomate en Torrelavega](./a-link-to-the-past-2023-22.jpeg)
+![Feria del Tomate en Torrelavega](./a-link-to-the-past-2023-22.jpg)
 
-![Mi nueva bicicleta: Sarmiento](./a-link-to-the-past-2023-23.jpeg)
+![Mi nueva bicicleta: Sarmiento](./a-link-to-the-past-2023-23.jpg)
 
-![Un retrato de Sara, en Cuchía](./a-link-to-the-past-2023-24.jpeg)
+![Un retrato de Sara, en Cuchía](./a-link-to-the-past-2023-24.jpg)
 
-![Libro sobre Maillots ciclistas](./a-link-to-the-past-2023-25.jpeg)
+![Libro sobre Maillots ciclistas](./a-link-to-the-past-2023-25.jpg)
 
-![Un día de aventuras en Irrisarri Land](./a-link-to-the-past-2023-27.jpeg)
+![Un día de aventuras en Irrisarri Land](./a-link-to-the-past-2023-27.jpg)
 
-![Bar Dobra, abierto en 2023](./a-link-to-the-past-2023-28.jpeg)
+![Bar Dobra, abierto en 2023](./a-link-to-the-past-2023-28.jpg)
 
-![Disfrutando del anochecer, en un lugar cualquiera](./a-link-to-the-past-2023-29.jpeg)
+![Disfrutando del anochecer, en un lugar cualquiera](./a-link-to-the-past-2023-29.jpg)
