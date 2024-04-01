@@ -17,11 +17,11 @@ El año 2023 comenzaba asistiendo a **Bilbostack**. A pesar de que ya casi no vo
 
 El encuentro está bastante guay. Se habla sobre tecnologías de todo tipo (tanto _back_ como _front_) y siempre aprendes algo nuevo, aunque no sea necesariamente tu especialidad.
 
-![Fotografía del evento Bilbostack 2023](./a-link-to-the-past-2023-desarrollo-01.jpeg)
+![Fotografía del evento Bilbostack 2023](./a-link-to-the-past-2023-desarrollo-01.jpg)
 
 Otro evento al que pude asistir, de manera virtual, fue a la [MiduConf](https://www.miduconf.com). Me gusta también que este tipo de cosas se hagan _online_ de vez en cuando. Aunque sigo prefieriendo asistir presencialmente, en otras ocasiones es divertido hacerlo desde casa.
 
-![Un Metroid y yo, en el evento MiDuFest](./a-link-to-the-past-2023-desarrollo-02.jpeg)
+![Un Metroid y yo, en el evento MiDuFest](./a-link-to-the-past-2023-desarrollo-02.jpg)
 
 En cuanto a desarrollo web, en lo personal, siento que he crecido. A pesar que aún me quedan infinidad de cosas por aprender, soy capaz de afrontar los problemas desde otra perspectiva. Mucho más pragmático.
 
@@ -143,7 +143,7 @@ La verdad que esperaba que me gustase, pero no que me gustase tanto. Diría que 
 
 Para ir terminando, no puedo dejar de lado Super Mario Wonder, Blasphemous II o TUNIC. Siendo estos dos últimos auténticas joyas, sobretodo la edición especial de TUNIC.
 
-![TUNIC: Edición Especial para Nintendo Switch](./a-link-to-the-past-2023-videojuegos-13.jpeg)
+![TUNIC: Edición Especial para Nintendo Switch](./a-link-to-the-past-2023-videojuegos-13.jpg)
 
 ## 🌵 Lo demás
 
