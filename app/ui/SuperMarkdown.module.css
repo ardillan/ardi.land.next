@@ -33,6 +33,14 @@
   }
 }
 
+.markdownContent > hr {
+  background: black;
+  border: none;
+  border-bottom: 1px solid #141b2b;
+  box-shadow: 0px 2px 0px #28324e;
+  margin-bottom: 2rem;
+}
+
 .markdownContent > div > figure {
   height: auto;
 }
