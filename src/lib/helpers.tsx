@@ -79,7 +79,7 @@ export function getExperience(birthdateString: string): number {
   // Convert the time difference to days
   const daysLeft = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
 
-  if (daysLeft === 366) {
+  if (daysLeft === 366 || daysLeft === 365) {
     return 365;
   }
 
