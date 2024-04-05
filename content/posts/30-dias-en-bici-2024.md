@@ -55,7 +55,7 @@ A parte de esto, andaba recordando a la banda Cordura. Les he podido ver en unas
 
 ## Día 5
 
-La mañana se declaró calurosa y con viento sur. Aproveché que tenía el día libre para ir a la vereda del río Besaya. Mientras pedaleba se me vino a la cabeza Las Buenas Noches y su canción "[El fin del mundo](https://lasbuenasnoches.bandcamp.com/track/el-fin-del-mundo)".
+La mañana se presentó calurosa y con viento sur. Aproveché que tenía el día libre para por el carril bici que discurre en paralelo al río Besaya. Mientras pedaleba se me vino a la cabeza Las Buenas Noches y su canción "[El fin del mundo](https://lasbuenasnoches.bandcamp.com/track/el-fin-del-mundo)".
 
 _bajando el valle el arroyo creció_ <br>
 _puerto y moneda la riada llevó_ <br>
