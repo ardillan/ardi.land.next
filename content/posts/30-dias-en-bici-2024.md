@@ -52,3 +52,16 @@ A parte de esto, andaba recordando a la banda Cordura. Les he podido ver en unas
 ![Mi bicicleta en un carril bici](./30DEB-04.jpeg)
 
 ---
+
+## Día 5
+
+La mañana se declaró calurosa y con viento sur. Aproveché que tenía el día libre para ir a la vereda del río Besaya. Mientras pedaleba se me vino a la cabeza Las Buenas Noches y su canción "[El fin del mundo](https://lasbuenasnoches.bandcamp.com/track/el-fin-del-mundo)".
+
+_bajando el valle el arroyo creció_ <br>
+_puerto y moneda la riada llevó_ <br>
+_yo no sé si el es agua_ <br>
+_ó mi sed_ <br>
+
+**Las buenas noches**
+
+![Carril bici al lado del río Besaya](./30DEB-05.jpeg)
