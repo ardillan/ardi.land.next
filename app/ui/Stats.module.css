@@ -77,6 +77,11 @@
   border-radius: var(--border-radius);
 }
 
+.indicators > .birthday > progress {
+  animation: glow 1s infinite;
+  animation-timing-function: linear;
+}
+
 .indicators > .regular > progress::-webkit-progress-value {
   background-color: rgba(var(--color-honey-yellow));
   border-top-left-radius: var(--border-radius);
@@ -178,5 +183,23 @@
 
   .stats > .indicators > .info {
     grid-area: info;
+  }
+}
+
+@keyframes glow {
+  0% {
+    border: 2px solid white;
+    background-position-x: 0;
+  }
+
+  50% {
+    border: 2px solid #ffd812;
+    box-shadow: #fff41a 0 0 10px;
+    background-position-x: 400px;
+  }
+
+  100% {
+    border: 2px solid white;
+    background-position-x: 0;
   }
 }
