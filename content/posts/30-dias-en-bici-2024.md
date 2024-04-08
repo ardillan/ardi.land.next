@@ -55,7 +55,7 @@ A parte de esto, andaba recordando a la banda Cordura. Les he podido ver en unas
 
 ## Día 5
 
-La mañana se presentó calurosa y con viento sur. Aproveché que tenía el día libre para por el carril bici que discurre en paralelo al río Besaya. Mientras pedaleba se me vino a la cabeza Las Buenas Noches y su canción "[El fin del mundo](https://lasbuenasnoches.bandcamp.com/track/el-fin-del-mundo)".
+La mañana se presentó calurosa y con viento sur. Aproveché que tenía el día libre para ir por el carril bici que discurre en paralelo al río Besaya. Mientras pedaleba se me vino a la cabeza Las Buenas Noches y su canción "[El fin del mundo](https://lasbuenasnoches.bandcamp.com/track/el-fin-del-mundo)".
 
 _bajando el valle el arroyo creció_ <br>
 _puerto y moneda la riada llevó_ <br>
@@ -65,3 +65,37 @@ _ó mi sed_ <br>
 **Las buenas noches**
 
 ![Carril bici al lado del río Besaya](./30DEB-05.jpeg)
+
+---
+
+## Día 6
+
+Lo único que pedía al sábado era que no lloviese. Durante el día tenía planeada una ruta con [Cantabria con Bici](https://www.cantabriaconbici.org/) de unos 50 kilómetros. Lo último que quería era mojarme y resfriarme.
+
+Afortunadamente todo fué bien, pudé disfrutar de la la Vía Verde del Pas, un recorrido que no había hecho nada más que desde su zona norte.
+
+La banda sonora estuvo a cargo de los franceses [Totorro](https://totorro.bandcamp.com/track/yaaaago)
+
+![Vía Verde del Pas](./30DEB-06.jpeg)
+
+---
+
+## Día 7
+
+Los domingos **no son mi día favorito**. Cogí la bici bien pronto y fui a comprar el pan para toda la semana.
+
+Crucé Cartes, como de costumbre: desierto y sin nada de ruído. Me recordó en cierta medida a [La Ciudad del Santo Nombre](https://thegamekitchen.bandcamp.com/track/del-santo-nombre), de Blasphemous.
+
+![Calle del camino Real de Cartes](./30DEB-07.jpeg)
+
+---
+
+## Día 8
+
+Los lunes no los llevo mal, a no ser que llueva.
+
+Quizá una de las mejoras inversiones que he hecho para mi bici ha sido el traje de lluvia. Permite moverme y llegar a mi destino totalmente seco (incluídas las zapatillas).
+
+No tenía nada importante que hacer, salvo alguna compra. Así que pasé a ver lo que iba quedando de SNIACE mientras [sonaba Baiuca](https://raso.bandcamp.com/track/caroi-feat-aliboria).
+
+![La fábrica SNIACE con mi bici en primer plano](./30DEB-08.jpeg)
