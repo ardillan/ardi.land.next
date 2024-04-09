@@ -99,3 +99,15 @@ Quizá una de las mejoras inversiones que he hecho para mi bici ha sido el traje
 No tenía nada importante que hacer, salvo alguna compra. Así que pasé a ver lo que iba quedando de SNIACE mientras [sonaba Baiuca](https://raso.bandcamp.com/track/caroi-feat-aliboria).
 
 ![La fábrica SNIACE con mi bici en primer plano](./30DEB-08.jpeg)
+
+---
+
+## Día 9
+
+A la salida del trabajo tuve que hacer unos recados en _Bárcena la Puente_. Desgraciadamente uno de mis radios resultó _herido_, por lo que fue necesario una parada de mantenimiento. "[Maldita la gracia](https://bcoredisc.bandcamp.com/track/maldita-la-gracia)", pensé.
+
+A pesar de todo, creo que la bici aguantará unos días con un radio suelto, pero es probable que el resto del comprimso de _30DEB_ lo tenga que hacer con otra bici.
+
+Afortunadamente **tengo unas cuantas**.
+
+![Mi bicicleta en un carril bici segregado](./30DEB-09.jpeg)
