@@ -9,7 +9,7 @@ category:
   - Reflexión
 ---
 
-Por segundo año consecutivo comienzo mi andadura con 30 días en bici (**30DEB**). El objetivo consiste en utilizar la bicicleta todo lo posible durante el mes de abril. Con ello se pretende dar visibilidad a este medio de transporte como medida de resilencia y alternativa a los vehículos motorizados.
+Por segundo año consecutivo comienzo mi andadura con 30 días en bici (**30DEB**). El objetivo consiste en utilizar la bicicleta todo lo posible durante el mes de abril. Con ello se pretende dar visibilidad a este medio de transporte como medida de resiliencia y alternativa a los vehículos motorizados.
 
 ¡Bicicleta o barbarie!
 
@@ -55,12 +55,12 @@ A parte de esto, andaba recordando a la banda Cordura. Les he podido ver en unas
 
 ## Día 5
 
-La mañana se presentó calurosa y con viento sur. Aproveché que tenía el día libre para ir por el carril bici que discurre en paralelo al río Besaya. Mientras pedaleba se me vino a la cabeza Las Buenas Noches y su canción "[El fin del mundo](https://lasbuenasnoches.bandcamp.com/track/el-fin-del-mundo)".
+La mañana se presentó calurosa y con viento sur. Aproveché que tenía el día libre para ir por el carril bici que discurre en paralelo al río Besaya. Mientras pedaleaba se me vino a la cabeza Las Buenas Noches y su canción "[El fin del mundo](https://lasbuenasnoches.bandcamp.com/track/el-fin-del-mundo)".
 
-_bajando el valle el arroyo creció_ <br>
+_"bajando el valle el arroyo creció_ <br>
 _puerto y moneda la riada llevó_ <br>
 _yo no sé si el es agua_ <br>
-_ó mi sed_ <br>
+_ó mi sed"_ <br>
 
 **Las buenas noches**
 
@@ -72,7 +72,7 @@ _ó mi sed_ <br>
 
 Lo único que pedía al sábado era que no lloviese. Durante el día tenía planeada una ruta con [Cantabria con Bici](https://www.cantabriaconbici.org/) de unos 50 kilómetros. Lo último que quería era mojarme y resfriarme.
 
-Afortunadamente todo fué bien, pudé disfrutar de la la Vía Verde del Pas, un recorrido que no había hecho nada más que desde su zona norte.
+Afortunadamente todo fué bien, pude disfrutar de la la Vía Verde del Pas, un recorrido que no había hecho nada más que desde su zona norte.
 
 La banda sonora estuvo a cargo de los franceses [Totorro](https://totorro.bandcamp.com/track/yaaaago)
 
@@ -84,7 +84,7 @@ La banda sonora estuvo a cargo de los franceses [Totorro](https://totorro.bandca
 
 Los domingos **no son mi día favorito**. Cogí la bici bien pronto y fui a comprar el pan para toda la semana.
 
-Crucé Cartes, como de costumbre: desierto y sin nada de ruído. Me recordó en cierta medida a [La Ciudad del Santo Nombre](https://thegamekitchen.bandcamp.com/track/del-santo-nombre), de Blasphemous.
+Crucé Cartes, como de costumbre: desierto y sin nada de ruido. Me recordó en cierta medida a [La Ciudad del Santo Nombre](https://thegamekitchen.bandcamp.com/track/del-santo-nombre), de Blasphemous.
 
 ![Calle del camino Real de Cartes](./30DEB-07.jpeg)
 
@@ -106,8 +106,52 @@ No tenía nada importante que hacer, salvo alguna compra. Así que pasé a ver l
 
 A la salida del trabajo tuve que hacer unos recados en _Bárcena la Puente_. Desgraciadamente uno de mis radios resultó _herido_, por lo que fue necesario una parada de mantenimiento. "[Maldita la gracia](https://bcoredisc.bandcamp.com/track/maldita-la-gracia)", pensé.
 
-A pesar de todo, creo que la bici aguantará unos días con un radio suelto, pero es probable que el resto del comprimso de _30DEB_ lo tenga que hacer con otra bici.
+A pesar de todo, creo que la bici aguantará unos días con un radio suelto, pero es probable que el resto del compromiso de _30DEB_ lo tenga que hacer con otra bici.
 
-Afortunadamente **tengo unas cuantas**.
+Afortunadamente **tengo unas cuantas más**.
 
 ![Mi bicicleta en un carril bici segregado](./30DEB-09.jpeg)
+
+---
+
+## Día 10
+
+El miércoles se presentó como lo que es: un miércoles. Aproveché el buen día y visité Riocorvo.
+
+Me gusta recorrer ese tramo, es que hacía con mi padre allá por mediados de los noventa y permanece bastante parecido a como estaba en aquella época (que yo recuerde).
+
+De fondo [sonaba Accidente](https://accidente.bandcamp.com/track/las-victorias-m-s-bellas).
+
+![Mi bicicleta por una senda ciclable](./30DEB-10.jpeg)
+
+---
+
+## Día 11
+
+El jueves decidí ir a la oficina. Como he dicho más arriba, disfruto mucho combinando el tren y la bicicleta (aunque no siempre). Lo mejor del trayecto de vuelta es que puedo elegir dónde apearme y seguir con la bici si me encuentro con ganas.
+
+Ese día un paseo por [Mar](<https://es.wikipedia.org/wiki/Mar_(Cantabria)>).
+
+Por la tarde un amigo llegó escuchando [Envy](https://envy.bandcamp.com/track/further-ahead-of-warp) a todo trapo en su furgoneta. Me puse contento al recordarlos, por lo que decidí dedicarle el día a ellos.
+
+![Mi bicicleta por una carretera comarcal](./30DEB-11.jpeg)
+
+---
+
+## Día 12
+
+El viernes estaba libre, ya que no trabajaba. Decidí hacer _mis labores_ pronto por la mañana y enseguida arranqué a dar un paseo.
+
+El día brillaba y el cielo estaba azul, lo que me recordó al estrenado "[Cancionero de los cielos](https://vivabelgrado.bandcamp.com/track/gemini)", de Viva Belgrado.
+
+![Mi bicicleta por novísimo carril bici](./30DEB-12.jpeg)
+
+---
+
+## Día 13
+
+Sábado sin más. Sol y bastante cálido en general. Ese mismo día, por la tarde, tocaban [Los ídolos del extrarradio](https://idolosdelextrarradio.bandcamp.com/track/ojitos-de-caracola), en el Espacio Creativo J.M Illera, en Torrelavega.
+
+Me dediqué a escuchar bastante su disco para ir preparado.
+
+![Mi bicicleta por novísimo carril bici](./30DEB-13.jpeg)
