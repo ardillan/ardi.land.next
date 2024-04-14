@@ -9,15 +9,15 @@ category:
   - Desarrollo
 ---
 
-Últimamente me estoy reencontrando con los simuladores de paseos y aventuras gráficas. En este caso, estuve jugando a "League of Enthusiastic Losers", una aventura gráfica creada por una sola persona: [Yokoond](http://yookond.com), un desarrollador afincado en Rusia.
+Últimamente me estoy reencontrando con el género de los simuladores de paseos y aventuras gráficas. En este caso, estuve jugando a "League of Enthusiastic Losers", una aventura gráfica creada por una sola persona: [Yokoond](http://yookond.com), un desarrollador afincado en Rusia.
 
 ## La vida en Moscú
 
-El juego narra las aventuras de Vitya y Volodya en el Moscú de los 90. Durante el juego veremos cómo la vida no les sonríe del todo, ya que seremos testigos de varios de los problemas a los que tienen que enfrentarse día tras día: ultimátums para pagar el alquiler del apartamento, problemas laborales, problemas de inspiración... incluso tendrán que afrontar las averías del tranvía de Moscú.
+El juego narra las aventuras de Vitya y Volodya en el Moscú de los 90. Durante la partida veremos cómo la vida no les sonríe del todo, ya que seremos testigos de varios de los problemas a los que tienen que enfrentarse día tras día: ultimátums para pagar el alquiler del apartamento, problemas laborales, problemas de inspiración... incluso tendrán que afrontar las averías del tranvía de Moscú.
 
 ![Escena en un parque](./league-of-enthusiastic-losers-05.jpg)
 
-Es una partida ligera, de no más de dos horas de duración y con puzzles bastante sencillos. Una sabia elección, ya que no veo necesidad de complicarla con acertijos cuando es la historia y los gráficos los que han de brillar, junto con la personalidad de nuestros protagonistas.
+Es una partida ligera, de no más de dos horas de duración y con puzzles bastante sencillos. Una sabia elección, ya que no veo necesidad de complicarla con acertijos innecesarios cuando son la historia y los gráficos los que han de brillar junto con la personalidad de nuestros protagonistas.
 
 <div>
 
@@ -27,7 +27,7 @@ Es una partida ligera, de no más de dos horas de duración y con puzzles bastan
 
 </div>
 
-Si bien la banda sonora es aceptable, no diría que destaca especialmente. Es llevadera sabe encajar cada momento sin notarse demasiado. Quizá este aspecto me haya decepcionado un poco, lo que no quiere decir que se pueda disfrutar de ella.
+Si bien la banda sonora es aceptable, no diría que destaca especialmente. Es llevadera y sabe encajar cada momento sin hacerse notar demasiado. Quizá este aspecto es el que más me ha decepcionado. No obstante, esto lo que no quita que se pueda disfrutar de ella.
 
 <div>
 
