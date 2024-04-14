@@ -4,7 +4,7 @@ subtitle: "Русская драгоценность"
 date: "2024-04-14T17:00:00.0100"
 type: "blog"
 description: "Un vistazo preciosista al Moscú en los noventa"
-featuredImage: "./league-of-enthusiastic-losers-02.jpg"
+featuredImage: "./league-of-enthusiastic-losers-00.png"
 category:
   - Desarrollo
 ---
