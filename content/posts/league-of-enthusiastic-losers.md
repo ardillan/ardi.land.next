@@ -15,7 +15,7 @@ category:
 
 El juego narra las aventuras de Vitya y Volodya en el Moscú de los 90. Durante la partida veremos cómo la vida no les sonríe del todo, ya que seremos testigos de varios de los problemas a los que tienen que enfrentarse día tras día: ultimátums para pagar el alquiler del apartamento, problemas laborales, problemas de inspiración... incluso tendrán que afrontar las averías del tranvía de Moscú.
 
-![Escena en un parque](./league-of-enthusiastic-losers-05.jpg)
+![Escena en un parque de Moscú](./league-of-enthusiastic-losers-5.jpg)
 
 Es una partida ligera, de no más de dos horas de duración y con puzzles bastante sencillos. Una sabia elección, ya que no veo necesidad de complicarla con acertijos innecesarios cuando son la historia y los gráficos los que han de brillar junto con la personalidad de nuestros protagonistas.
 
