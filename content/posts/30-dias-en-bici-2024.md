@@ -155,3 +155,13 @@ Sábado sin más. Sol y bastante cálido en general. Ese mismo día, por la tard
 Me dediqué a escuchar bastante su disco para ir preparado.
 
 ![Mi bicicleta por novísimo carril bici](./30DEB-13.jpeg)
+
+---
+
+## Día 14
+
+El domingo ha sido un día un poco caótico. Mi bicicleta amanecía con una rueda pinchada y la que tenía de repuesto también sufrío una avería. Aproveché para andar con la Pepuca.
+
+No obstante, el día se animó ya que asistí al Market Freak que había en Torrelvega. Para mejorarlo aún más, decidí escuchar [Hidden Orquestra](https://hiddenorchestra.bandcamp.com/track/overture)
+
+![Mi bicicleta por un camino antiguo](./30DEB-14.jpeg)
