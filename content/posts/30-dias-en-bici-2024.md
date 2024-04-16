@@ -165,3 +165,30 @@ El domingo ha sido un día un poco caótico. Mi bicicleta amanecía con una rued
 No obstante, el día se animó ya que asistí al Market Freak que había en Torrelvega. Para mejorarlo aún más, decidí escuchar [Hidden Orquestra](https://hiddenorchestra.bandcamp.com/track/overture)
 
 ![Mi bicicleta por un camino antiguo](./30DEB-14.jpeg)
+
+---
+
+## Día 15
+
+La semana empezó con un día lluvioso. Poco podía hacer contra el clima más que esperar a que dejase de llover. Afortunadamente, ese mismo lunes comenzaba la Semana de la Ecología.
+
+Me acerqué al Barrio Covadonga para asistir a una de sus charlas mientras un _calabobos_ constante caía sobre mí.
+
+Mientras pedaleaba, recordé cuánto me gustó jugar a [Machinarium](https://innerfx.bandcamp.com/track/mr-handagote) en su día.
+
+![Mi bicicleta por carril bici al anocecher](./30DEB-15.jpeg)
+
+---
+
+## Día 16
+
+El martes pude por fin reparar a Sarmiento, mi bici del día a día. Llevaba dos días con un radio roto y una rueda pinchada. Me gustan mucho las bicis, pero soy un **auténtico inútil para la mecánica**. No obstante reparé todo (salvo el maldito radio).
+
+Al igual que el día anterior, la _morrina_ se dejaba ver a cada hora. Aproveché la salida del trabajo para andar un poco al lado del río, lo que me invitó a recodar a [Pony Bravo](https://ponybravo.bandcamp.com/track/el-pony-bravo):
+
+_"Mira aquí, este el río_ <br>
+_el río: ¿me entiendes?"_
+
+**Pony Bravo.**
+
+![Mi bicicleta al lado del río Saja](./30DEB-16.jpeg)
