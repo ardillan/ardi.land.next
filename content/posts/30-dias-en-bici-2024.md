@@ -192,3 +192,113 @@ _el río: ¿me entiendes?"_
 **Pony Bravo.**
 
 ![Mi bicicleta al lado del río Saja](./30DEB-16.jpeg)
+
+---
+
+## Día 17
+
+Un miércoles normal de mitad de semana. Buen tiempo, con algo de frío. Decidí dar un paseo rápido con [Tycho](https://tycho.bandcamp.com/track/awake) a los oídos.
+
+![Mi bicicleta al lado del río Saja](./30DEB-17.jpg)
+
+---
+
+## Día 18
+
+Ese día anduve con ojo avizor y capté un instante frente a un toro que resultó, aparentemente, amigable.
+
+Por otro lado, no soy fanático de las canciones versionadas, generalmente, pero sí de [Me first and the gimme gimmes](https://gimmegimmes.bandcamp.com/track/believe).
+
+![Mi bicicleta en frente a un toro](./30DEB-18.jpeg)
+
+---
+
+## Día 19
+
+Los viernes son mi día favorito (cómo no). Afronté la jornada con ganas gracias al buen tiempo y a un amanecer bastante agradable mientras iba camino a la oficina.
+
+Una cosa de la que creo que peco bastante es de ir quizá un poquitín rápido con la bici. Aunque no considero que sea culpa mía, mas bien diría que es culpa de [Perro](https://perro.bandcamp.com/track/bicicleta-2).
+
+![Mi bicicleta camino a la oficina](./30DEB-19.jpeg)
+
+---
+
+## Día 20
+
+¡Sábado! Paseo matutino con un sol radiante y sin rumbo. De fondo sonaba [Thundercat](https://thundercat.bandcamp.com/track/them-changes-2).
+
+![Mi bicicleta en un puente sobre el río Saja](./30DEB-20.jpeg)
+
+---
+
+## Día 21
+
+El domingo también amaneció con bastante sol. Quise acercarme al puerto para ver algo de agua.
+
+Mientras veía las ondas que produce la ría recordé cuánto me gustan [The Mercury Program](https://themercuryprogram.bandcamp.com/track/dance-pact). A su vez, vigilaba con el rabillo del ojo a un labrador cercano que andaba algo nervioso.
+
+![Mi bicicleta en frente al puerto de Requejada](./30DEB-21.jpeg)
+
+---
+
+## Día 22
+
+Inicié la semana con bastantes ganas.
+
+Insisto en que me encanta poder ir a trabajar en bicicleta. A pesar de que los trenes no son lo suficientemente frecuentes y los suficientemente eficaces, me permite volver a escuchar bandas como [Brokeback](https://brokeback.bandcamp.com/track/will-be-arriving).
+
+![Mi bicicleta en una carretera. De fondo amanece.](./30DEB-22.jpeg)
+
+---
+
+## Día 23
+
+Día del libro. Sin mucho que reseñar más allá del paseo hacia la oficina. Amenicé el día escuchando [Cordura](https://cordura.bandcamp.com/track/negar-la-evidencia).
+
+![Mi bicicleta al lado de varias casas.](./30DEB-23.jpeg)
+
+---
+
+## Día 24
+
+A pesar de estar en primavera, el frío sigue siendo una constante, lo que hace que pasear en bici sea duro al principio.
+
+Mientras pedaleaba, recordé a [KillKill](https://thekillkill.bandcamp.com/track/dios-el-viaje-de-negocios), un dúo de bajo y batería.
+
+![Mi bicicleta por un carril bici, rodeado de árboles.](./30DEB-24.jpeg)
+
+---
+
+## Día 25
+
+Otro día con la rutina como base: "vivan los días iguales, quiero perder la cuenta", que decían Las buenas noches.
+
+De vuelta hacia la estación de tren reflexionaba sobre "Firewatch"; un videojuego que jugué hace poquito y que me dejó bastante impactado. Incluída [su banda sonora](https://camposantogames.bandcamp.com/track/stay-in-your-tower-and-watch).
+
+![Mi bicicleta en una carretera autonómica.](./30DEB-25.jpeg)
+
+---
+
+## Día 26
+
+¡Viernes!, como ya he dicho, mi día favorito.
+
+Fuí a comprar algo de pan a Cartes. Suelo variar la ruta, especialmente desde que han incluido el puente sobre el río Besaya.
+
+Aproveché que tenía algo de tiempo libre para sentarme conmigo mismo y escuchar música. Descubrí a la banda [Zeta](https://joinzeta.bandcamp.com/track/vii-magia-infinita), de Venezuela.
+
+Me lo pasé increiblemente bien escuchándoles y bebiendo cerveza.
+
+![Mi bicicleta sobre un puente.](./30DEB-26.jpeg)
+
+---
+
+## Día 27
+
+Parece ser que una galerna estaba por pronunciarse al mediodía. No quise tentar a la suerte e intenté salir cuando el sol se dejó ver. No anduve mucho; la bici pedía clemencia para que le llevasen a reparar (más de diez años sin revisiones).
+
+La dejé en una tienda para que la echasen un vistazo y volví a casa andando, algo triste, mientras escuchaba [Bomba Estéreo](https://bombaestereo.bandcamp.com/track/el-alma-y-el-cuerpo).
+
+Afortunadamente ese día comía tarta.
+
+![Mi bicicleta en un carril bici.](./30DEB-27.jpeg)
