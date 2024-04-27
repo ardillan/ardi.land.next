@@ -63,7 +63,7 @@ export const PostsList = ({
         return (
           <li key={post.id}>
             <Link href={`/blog/${post.id}`}>
-              {post.title}
+              <span>{post.title}</span>
               {post.date && (
                 <small>
                   <Date dateString={post.date} />
