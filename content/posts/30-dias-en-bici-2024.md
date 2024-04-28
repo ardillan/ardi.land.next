@@ -302,3 +302,13 @@ La dejé en una tienda para que la echasen un vistazo y volví a casa andando, a
 Afortunadamente ese día comía tarta.
 
 ![Mi bicicleta en un carril bici.](./30DEB-27.jpeg)
+
+---
+
+## Día 28
+
+Un domingo de lo más típico. Sin mucha novedad. Lo más curioso de todo es que durante la tarde descubrí a la última Anjana.
+
+Me puse bastante contento por ello, por lo que decidí escuchar durante el resto del día a [Fleet Foxes](https://fleetfoxes.bandcamp.com/track/mykonos).
+
+![Mi bicicleta en un carril bici.](./30DEB-28.jpeg)
