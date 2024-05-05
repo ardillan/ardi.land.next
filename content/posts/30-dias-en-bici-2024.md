@@ -15,7 +15,7 @@ Por segundo año consecutivo comienzo mi andadura con 30 días en bici (**30DEB*
 
 ## Día 1
 
-El primer día disfruté de un lunes festivo de sol. Como sentía que la primavera ya había llegado, decidí vagar con mi bici por La Viesca, en Torrelavega.
+El primer día disfruté de un lunes festivo de sol. Como sentía que la primavera ya había llegado, decidí pasear con mi bici por La Viesca, en Torrelavega.
 
 Además de iniciar mi andadura, me pareció simbólico hacerme la foto con el Dobra de fondo. Como si de un Dios se tratase.
 
@@ -82,7 +82,7 @@ La banda sonora estuvo a cargo de los franceses [Totorro](https://totorro.bandca
 
 ## Día 7
 
-Los domingos **no son mi día favorito**. Cogí la bici bien pronto y fui a comprar el pan para toda la semana.
+Los domingos **no son mi día favorito**. Cogí la bicicleta temprano y fui a comprar el pan para toda la semana.
 
 Crucé Cartes, como de costumbre: desierto y sin nada de ruido. Me recordó en cierta medida a [La Ciudad del Santo Nombre](https://thegamekitchen.bandcamp.com/track/del-santo-nombre), de Blasphemous.
 
@@ -106,7 +106,7 @@ No tenía nada importante que hacer, salvo alguna compra. Así que pasé a ver l
 
 A la salida del trabajo tuve que hacer unos recados en _Bárcena la Puente_. Desgraciadamente uno de mis radios resultó _herido_, por lo que fue necesario una parada de mantenimiento. "[Maldita la gracia](https://bcoredisc.bandcamp.com/track/maldita-la-gracia)", pensé.
 
-A pesar de todo, creo que la bici aguantará unos días con un radio suelto, pero es probable que el resto del compromiso de _30DEB_ lo tenga que hacer con otra bici.
+A pesar de todo, creo que la bici aguantará unos días con un radio suelto, pero es probable que tenga que usar otra bicicleta para el resto del desafío _30DEB_.
 
 Afortunadamente **tengo unas cuantas más**.
 
@@ -118,7 +118,7 @@ Afortunadamente **tengo unas cuantas más**.
 
 El miércoles se presentó como lo que es: un miércoles. Aproveché el buen día y visité Riocorvo.
 
-Me gusta recorrer ese tramo, es que hacía con mi padre allá por mediados de los noventa y permanece bastante parecido a como estaba en aquella época (que yo recuerde).
+Me gusta recorrer ese tramo, es que hacía con mi padre allá por mediados de los noventa y permanece bastante similar a como lo recordaba de aquella época.
 
 De fondo [sonaba Accidente](https://accidente.bandcamp.com/track/las-victorias-m-s-bellas).
 
@@ -150,7 +150,7 @@ El día brillaba y el cielo estaba azul, lo que me recordó al estrenado "[Canci
 
 ## Día 13
 
-Sábado sin más. Sol y bastante cálido en general. Ese mismo día, por la tarde, tocaban [Los ídolos del extrarradio](https://idolosdelextrarradio.bandcamp.com/track/ojitos-de-caracola), en el Espacio Creativo J.M Illera, en Torrelavega.
+Sábado sin más. Sol y bastante cálido en general. Ese mismo día, por la tarde, tocaban [los ídolos del extrarradio](https://idolosdelextrarradio.bandcamp.com/track/ojitos-de-caracola), en el Espacio Creativo J.M Illera, en Torrelavega.
 
 Me dediqué a escuchar bastante su disco para ir preparado.
 
@@ -160,7 +160,7 @@ Me dediqué a escuchar bastante su disco para ir preparado.
 
 ## Día 14
 
-El domingo ha sido un día un poco caótico. Mi bicicleta amanecía con una rueda pinchada y la que tenía de repuesto también sufrío una avería. Aproveché para andar con la Pepuca.
+El domingo ha sido un día un poco caótico. Mi bicicleta amanecía con una rueda pinchada y la que tenía de repuesto también sufrió una avería. Aproveché para andar con la Pepuca.
 
 No obstante, el día se animó ya que asistí al Market Freak que había en Torrelvega. Para mejorarlo aún más, decidí escuchar [Hidden Orquestra](https://hiddenorchestra.bandcamp.com/track/overture)
 
@@ -205,7 +205,7 @@ Un miércoles normal de mitad de semana. Buen tiempo, con algo de frío. Decidí
 
 ## Día 18
 
-Ese día anduve con ojo avizor y capté un instante frente a un toro que resultó, aparentemente, amigable.
+Ese día anduve con ojo avizor y capté un instante frente a un toro que resultó aparentemente amigable.
 
 Por otro lado, no soy fanático de las canciones versionadas, generalmente, pero sí de [Me first and the gimme gimmes](https://gimmegimmes.bandcamp.com/track/believe).
 
@@ -235,7 +235,7 @@ Una cosa de la que creo que peco bastante es de ir quizá un poquitín rápido c
 
 El domingo también amaneció con bastante sol. Quise acercarme al puerto para ver algo de agua.
 
-Mientras veía las ondas que produce la ría recordé cuánto me gustan [The Mercury Program](https://themercuryprogram.bandcamp.com/track/dance-pact). A su vez, vigilaba con el rabillo del ojo a un labrador cercano que andaba algo nervioso.
+Mientras veía las ondas que produce la ria recordé cuánto me gustan [The Mercury Program](https://themercuryprogram.bandcamp.com/track/dance-pact). A su vez, vigilaba con el rabillo del ojo a un labrador cercano que andaba algo nervioso.
 
 ![Mi bicicleta en frente al puerto de Requejada](./30DEB-21.jpeg)
 
@@ -245,7 +245,7 @@ Mientras veía las ondas que produce la ría recordé cuánto me gustan [The Mer
 
 Inicié la semana con bastantes ganas.
 
-Insisto en que me encanta poder ir a trabajar en bicicleta. A pesar de que los trenes no son lo suficientemente frecuentes y los suficientemente eficaces, me permite volver a escuchar bandas como [Brokeback](https://brokeback.bandcamp.com/track/will-be-arriving).
+Insisto en que me encanta poder ir a trabajar en bicicleta. A pesar de que los trenes no son lo suficientemente frecuentes y lo suficientemente eficaces, me permite volver a escuchar bandas como [Brokeback](https://brokeback.bandcamp.com/track/will-be-arriving).
 
 ![Mi bicicleta en una carretera. De fondo amanece.](./30DEB-22.jpeg)
 
@@ -287,7 +287,7 @@ Fuí a comprar algo de pan a Cartes. Suelo variar la ruta, especialmente desde q
 
 Aproveché que tenía algo de tiempo libre para sentarme conmigo mismo y escuchar música. Descubrí a la banda [Zeta](https://joinzeta.bandcamp.com/track/vii-magia-infinita), de Venezuela.
 
-Me lo pasé increiblemente bien escuchándoles y bebiendo cerveza.
+Me lo pasé increíblemente bien escuchándoles y bebiendo cerveza.
 
 ![Mi bicicleta sobre un puente.](./30DEB-26.jpeg)
 
@@ -307,7 +307,7 @@ Afortunadamente ese día comía tarta.
 
 ## Día 28
 
-Un domingo de lo más típico. Sin mucha novedad. Lo más curioso de todo es que durante la tarde descubrí a la última Anjana.
+Un domingo de lo más normal. Sin mucha novedad. Lo más curioso de todo es que durante la tarde descubrí a la última Anjana.
 
 Me puse bastante contento por ello, por lo que decidí escuchar durante el resto del día a [Fleet Foxes](https://fleetfoxes.bandcamp.com/track/mykonos).
 
@@ -327,7 +327,7 @@ El sol andaba bastante brillante, lo que me recordó que [Repión](https://sound
 
 ## Día 30
 
-Última jornada del compromiso. Es un día en el que me siento orgulloso por haber podido llevar a cabo mi copromiso con _30 días en bici_. Además de ser víspera de festivo al día siguiente, es el cumpleaños de Sara.
+Última jornada del mes. Es un día en el que me siento orgulloso por haber podido llevar a cabo mi compromiso con _30 días en bici_. Además de ser víspera de festivo al día siguiente, es el cumpleaños de Sara.
 
 En resumen, día de celebración por todo ello. De fondo suenan [Strawberry Girls](https://strawberrygirls.bandcamp.com/track/dream-girl). Una banda que descubrí hace poco y que no paran de sonar.
 
