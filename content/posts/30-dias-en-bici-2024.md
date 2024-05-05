@@ -312,3 +312,23 @@ Un domingo de lo más típico. Sin mucha novedad. Lo más curioso de todo es que
 Me puse bastante contento por ello, por lo que decidí escuchar durante el resto del día a [Fleet Foxes](https://fleetfoxes.bandcamp.com/track/mykonos).
 
 ![Mi bicicleta en un carril bici.](./30DEB-28.jpeg)
+
+---
+
+## Día 29
+
+Lunes y principio de semana. A pesar de ser días intensos en la oficina, pude pasear por la senda ciclable hasta Suances para relajarme.
+
+El sol andaba bastante brillante, lo que me recordó que [Repión](https://soundcloud.com/repion/el-dia-no-me-da) habían sacado tema nuevo hacía no mucho.
+
+![Mi bicicleta en una senda ciclable.](./30DEB-29.jpeg)
+
+---
+
+## Día 30
+
+Última jornada del compromiso. Es un día en el que me siento orgulloso por haber podido llevar a cabo mi copromiso con _30 días en bici_. Además de ser víspera de festivo al día siguiente, es el cumpleaños de Sara.
+
+En resumen, día de celebración por todo ello. De fondo suenan [Strawberry Girls](https://strawberrygirls.bandcamp.com/track/dream-girl). Una banda que descubrí hace poco y que no paran de sonar.
+
+![Mi bicicleta en un carril bici.](./30DEB-30.jpeg)
