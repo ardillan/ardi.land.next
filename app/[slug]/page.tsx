@@ -6,6 +6,7 @@ import BlogLayout from "@/appComponents/BlogLayout";
 import GamesLayout from "@/appComponents/GamesLayout";
 import PageLayout from "@/appComponents/PageLayout";
 import PanoramixLayout from "@/appComponents/PanoramixLayout";
+import StatsLayout from "@/appComponents/StatsLayout";
 import { ARDI } from "@/lib/constants";
 import { getAllPagesSlugs, getPageData } from "@/lib/getPageData";
 import { layoutSelector } from "@/lib/helpers";
@@ -37,6 +38,7 @@ const DynamicPage = async ({ params }) => {
     blog: BlogLayout,
     games: GamesLayout,
     panoramix: PanoramixLayout,
+    stats: StatsLayout,
   };
 
   const layout = layoutSelector(slug);

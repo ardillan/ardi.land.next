@@ -10,7 +10,7 @@ import styles from "./MainNavigation.module.css";
 const MainNavigation = (): JSX.Element => {
   return (
     <nav className={styles.container}>
-      <Stats />
+      <Stats variant="mini" />
       <LinkItems />
     </nav>
   );

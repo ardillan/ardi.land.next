@@ -1,4 +1,5 @@
 import { INavigationLink } from "@/interfaces/INavigationLink";
+
 export const NAVIGATION: Array<INavigationLink> = [
   {
     title: "Inicio",
@@ -34,6 +35,12 @@ export const NAVIGATION: Array<INavigationLink> = [
     title: "Videojuegos",
     path: "/videojuegos",
     layout: "games",
+    position: ["Footer"],
+  },
+  {
+    title: "Estadísticas",
+    path: "/estadisticas",
+    layout: "stats",
     position: ["Footer"],
   },
 ];

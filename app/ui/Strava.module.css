@@ -1,0 +1,22 @@
+.strava {
+  padding-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.strava > .avatar > img {
+  width: 300px;
+  height: auto;
+  border-radius: var(--border-radius);
+  position: relative;
+}
+
+.strava > ul {
+  list-style-type: none;
+}
+
+.strava > ul > li:nth-child(1) {
+  font-size: 4rem;
+  color: rgba(var(--color-honey-yellow));
+  font-family: var(--fraiche-font);
+}
