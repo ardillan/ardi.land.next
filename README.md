@@ -1,4 +1,4 @@
-Ardi.Land Website
+Ardi Land Website
 
 Mi página web personal.
 My personal website.
