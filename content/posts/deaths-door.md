@@ -23,19 +23,19 @@ Y así fué. El triunvirato de música, gráficos e historia me dejaron con la b
 
 <div>
 
-![El cuervo protagonista](./deaths-door-01.jpg)
+![Una imagen de una fortaleza](./deaths-door-01.jpg)
 
-![El cuervo protagonista](./deaths-door-02.jpg)
+![Un paraje lleno de vegetación](./deaths-door-02.jpg)
 
-![El cuervo protagonista](./deaths-door-03.jpg)
+![La puerta de la muerte](./deaths-door-03.jpg)
 
-![El cuervo protagonista](./deaths-door-04.jpg)
+![El cuervo dentro de un castillo ](./deaths-door-04.jpg)
 
 </div>
 
-En cuanto a la historia, y sin desgranar excesivamente el argumento, nos ponemos en la piel de un cuervo que acude a su puesto de trabajo de **cosechador de almas** y que se ve envuelto en una serie de desdichas que hacen que todo el sistema se venga abajo y tenga que resolverlo.
+En cuanto a la historia, y sin desgranar excesivamente el argumento, nos ponemos en la piel de un cuervo que acude a su puesto de trabajo de **cosechador de almas**. Una vez en la oficina, los acontecimiento le llevan a verse envuelto en una serie de desdichas que hacen que todo el sistema se venga abajo y tenga que resolverlo.
 
-Mientras desvelamos qué ocurre las almas cosechadas, la muerte y el Señor de las puertas, iremos resolviendo puzzles en diferentes biomas y escenarios. Desde brujas y ranas gigantes hasta _caravasijas_ que nos piden ayuda. Todo ello acompañado de un factor de investigación bastante algo que se mezcla con un combate muy equilibrado.
+Con este pretexto iremos resolviendo puzzles en diferentes biomas y escenarios mientras desvelamos qué ocurre con las almas cosechadas, la muerte y el Señor de las puertas. Desde brujas y ranas gigantes hasta _caravasijas_ que nos piden ayuda. Todo ello acompañado de un factor de investigación bastante alto que se mezcla con un combate muy equilibrado.
 
 ## La muerte sonora
 
