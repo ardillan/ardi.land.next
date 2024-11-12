@@ -9,7 +9,9 @@ category:
   - Espacios
 ---
 
-![Mi oficina en la actualidad](./2023-11-22.jpg)
+![Mi oficina en la actualidad](./20241022.jpeg)
+
+![Mi oficina en 2023](./2023-11-22.jpg)
 
 ![Mi CAOC durante la pandemia](./2020-11-15.jpg)
 
@@ -40,3 +42,5 @@ category:
 ![Mi portátil en un piso de alquiler. 2011.](./2011-07-01.jpg)
 
 ![Hace años. Mi primer trabajo de oficina. 2009](./2009-06-01.png)
+
+![Mi portátil de 17 pulgadas. 2008](./2008-06-01.jpg)
