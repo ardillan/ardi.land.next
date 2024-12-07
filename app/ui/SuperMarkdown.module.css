@@ -140,7 +140,7 @@ div.code {
 
 .markdownContent blockquote {
   padding: 1rem 3rem;
-  margin: 0;
+  margin: 0 0 1.5rem 0;
   border-width: 2px;
   border-style: solid;
   border-radius: 10px;
