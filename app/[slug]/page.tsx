@@ -13,7 +13,7 @@ import { layoutSelector } from "@/lib/helpers";
 import Custom404 from "../not-found";
 
 export async function generateMetadata({ params }) {
-  const { slug } = params;
+  const { slug } = await params;
   const pageContent = await getPageData(slug);
   if (!pageContent) return;
 
@@ -26,8 +26,8 @@ export async function generateMetadata({ params }) {
   };
 }
 
-const DynamicPage = async ({ params }) => {
-  const { slug } = params;
+const DynamicPage = async ({ params }: { params: { slug: string } }) => {
+  const { slug } = await params;
   const pageContent = await getPageData(slug);
 
   if (!pageContent) return <Custom404 />;

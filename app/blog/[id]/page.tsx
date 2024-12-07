@@ -13,7 +13,7 @@ import global from "../../ui/Global.module.css";
 import styles from "./Blog.module.css";
 
 export async function generateMetadata({ params }) {
-  const { id } = params;
+  const { id } = await params;
   const postData = await getPostData(id);
   if (!postData) return;
 
@@ -26,8 +26,12 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default async function Post({ params }) {
-  const { id } = params;
+export default async function Post({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id } = await params;
 
   const postData = await getPostData(id);
   const featuredImagePath = `/posts/${
@@ -71,7 +75,6 @@ export default async function Post({ params }) {
             />
           </div>
         </header>
-
         <section>
           {postData.contentHtml ? (
             <SuperMarkdown markdownContent={postData.contentHtml} />

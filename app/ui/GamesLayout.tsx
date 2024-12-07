@@ -2,13 +2,12 @@ import React from "react";
 
 import Games from "@/appComponents/Games";
 import SuperMarkdown from "@/appComponents/SuperMarkdown";
+import { IMarkDownData } from "@/interfaces/IMarkDownData";
 
 import styles from "./GamesLayout.module.css";
 import global from "./Global.module.css";
 
-export default async function GamesLayout({
-  pageContent,
-}): Promise<JSX.Element> {
+export default function GamesLayout({ ...pageContent }: IMarkDownData) {
   return (
     <div className={`${global.container} ${styles.pageGames}`}>
       <header>
