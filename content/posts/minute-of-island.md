@@ -1,7 +1,7 @@
 ---
-title: "Minute of Island"
+title: "Minute of Islands"
 subtitle: "Un apocalipsis colorido"
-date: "2024-11-12T15:30:00.0100"
+date: "2024-12-07T19:00:00.0100"
 type: "blog"
 description: "Un plataformas colorido donde la narrativa juega un papel importante"
 featuredImage: ./minute-of-island-thumb.png
@@ -13,7 +13,7 @@ category:
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1772441563/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/transparent=true/" seamless></iframe>
 
-**Minute of Island** es un videojuego que me llamó la atención por su colorido apartado artístico. En él controlamos a Mo, una chica de traje amarillo que vive en un archipiélago con multitud de islas. Es un videojuego en dos dimensiones que pone el foco en su narrativa, dejando otras mecánicas en un segundo plano.
+**Minute of Islands** es un videojuego que me llamó la atención por su colorido apartado artístico. En él controlamos a Mo, una chica de traje amarillo que vive en un archipiélago con multitud de islas. Es un videojuego en dos dimensiones que pone el foco en su narrativa, dejando otras mecánicas en un segundo plano.
 
 ## Cuatro hermanos y una chica
 
@@ -21,9 +21,9 @@ El juego comienza explicándonos cómo el mundo en el que vivimos se mantiene gr
 
 <div>
 
-![Minute if Island](minute-of-island-01.jpg)
+![Una imagen de Mo con la omnivara](minute-of-island-01.jpg)
 
-![Minute if Island](minute-of-island-02.jpg)
+![Una de las bestias](minute-of-island-02.jpg)
 
 </div>
 
@@ -31,9 +31,9 @@ Mo es la encargada de orquestar a las criaturas con la ayuda de la **omnivara**,
 
 <div>
 
-![Minute if Island](minute-of-island-03.jpg)
+![Mo navegando entre islas](minute-of-island-03.jpg)
 
-![Minute if Island](minute-of-island-04.jpg)
+![Una caverna colorida](minute-of-island-04.jpg)
 
 </div>
 
