@@ -10,7 +10,7 @@ interface IPanoramixLayout {
   className?: object;
 }
 
-const PanoramixLayout = ({ pageContent }: IPanoramixLayout): JSX.Element => {
+const PanoramixLayout = ({ pageContent }: IPanoramixLayout) => {
   return (
     <div className={`${styles.panoramix}`}>
       <header>

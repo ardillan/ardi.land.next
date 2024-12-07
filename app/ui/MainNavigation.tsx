@@ -7,7 +7,7 @@ import Stats from "@/appComponents/Stats";
 import LinkItems from "./LinkItems";
 import styles from "./MainNavigation.module.css";
 
-const MainNavigation = (): JSX.Element => {
+const MainNavigation = () => {
   return (
     <nav className={styles.container}>
       <Stats />

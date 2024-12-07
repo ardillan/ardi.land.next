@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { JSX } from "react";
 
 import { fontFraiche, fontInter } from "@/appComponents/Fonts";
 import { useMobile } from "@/context/MobileContext";

@@ -15,7 +15,7 @@ export type ISuperMarkdown = {
   markdownContent: string;
 };
 
-const SuperMarkdown = ({ markdownContent }: ISuperMarkdown): JSX.Element => {
+const SuperMarkdown = ({ markdownContent }: ISuperMarkdown) => {
   return (
     <Markdown
       rehypePlugins={[rehypeUnwrapImages, rehypeRaw]}

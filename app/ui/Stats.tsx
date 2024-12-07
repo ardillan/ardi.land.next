@@ -7,7 +7,7 @@ import { getAge, getExperience } from "@/lib/helpers";
 
 import styles from "./Stats.module.css";
 
-const Stats = (): JSX.Element => {
+const Stats = () => {
   const age = getAge();
   const hearts = [1, 2, 3, 4];
   const experience = getExperience(ARDI.birthday);

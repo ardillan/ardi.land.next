@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from "./Welcome.module.css";
 
-const Welcome = (): JSX.Element => (
+const Welcome = () => (
   <div className={styles.welcome}>
     <p>
       <span>It's a me</span>

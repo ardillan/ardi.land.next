@@ -19,7 +19,7 @@ const isActiveClass = (pathName: string): boolean => {
   return false;
 };
 
-const LinkItems = (): JSX.Element => {
+const LinkItems = () => {
   const { isMenuOpen, toggleMenuMobile } = useMobile();
 
   const handleClick = () => {

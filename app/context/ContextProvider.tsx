@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { JSX } from "react";
 
 import { MobileProvider } from "@/context/MobileContext";
 import { ThemeProvider } from "@/context/ThemeContext";

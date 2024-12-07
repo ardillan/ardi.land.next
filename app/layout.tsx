@@ -1,6 +1,6 @@
 import "@/styles/global.css";
 
-import React from "react";
+import React, { JSX } from "react";
 
 import ContextProvider from "@/context/ContextProvider";
 

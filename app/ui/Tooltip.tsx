@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { JSX } from "react";
 import { Tooltip } from "react-tooltip";
 
 const CustomTooltip = ({
@@ -13,7 +13,7 @@ const CustomTooltip = ({
   id: string;
   content: string;
   played?: boolean;
-}): JSX.Element => {
+}) => {
   return (
     <>
       <a

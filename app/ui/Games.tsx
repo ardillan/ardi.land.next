@@ -5,7 +5,7 @@ import getNotionGames from "@/lib/getGames";
 import styles from "./Games.module.css";
 import CustomTooltip from "./Tooltip";
 
-const Games = async (): Promise<JSX.Element> => {
+const Games = async () => {
   const notionGames = await getNotionGames();
 
   return (

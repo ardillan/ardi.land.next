@@ -26,7 +26,11 @@ export async function generateMetadata({ params }) {
   };
 }
 
-const DynamicPage = async ({ params }: { params: { slug: string } }) => {
+const DynamicPage = async ({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) => {
   const { slug } = await params;
   const pageContent = await getPageData(slug);
 

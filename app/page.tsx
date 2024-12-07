@@ -11,6 +11,6 @@ export async function generateMetadata() {
   };
 }
 
-export default async function Home(): Promise<JSX.Element> {
+export default async function Home() {
   return <HomeLayout />;
 }

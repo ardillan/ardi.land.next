@@ -8,7 +8,7 @@ import { formatDate } from "@/lib/helpers";
 
 import styles from "./Footer.module.css";
 
-const Footer = async (): Promise<JSX.Element> => {
+const Footer = async () => {
   const githubData = await getGitHub();
   const getYear = new Date();
   return (

@@ -12,7 +12,7 @@ interface IPageLayout {
   className?: object;
 }
 
-const PageLayout = ({ pageContent }: IPageLayout): JSX.Element => (
+const PageLayout = ({ pageContent }: IPageLayout) => (
   <div className={`${global.container} ${styles.page}`}>
     <header>
       <h1>{pageContent.title}</h1>
