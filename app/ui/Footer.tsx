@@ -14,7 +14,7 @@ const Footer = async () => {
   return (
     <footer className={styles.footer}>
       <p>Esta web está hecha con NextJS</p>
-      <p> {`Ardi Land ${getYear.getFullYear()}`} </p>
+      <p> {`Ardi Monster ${getYear.getFullYear()}`} </p>
       {githubData != null ? (
         <small>
           Última actualización el {formatDate(githubData.pushed_at)}

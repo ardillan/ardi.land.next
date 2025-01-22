@@ -40,9 +40,9 @@ export const NAVIGATION: Array<INavigationLink> = [
 
 export const ARDI = {
   web: {
-    title: "Ardi.Land",
+    title: "Ardi.Monster",
     description: "Página personal de Ardi",
-    url: "https://www.ardi.land",
+    url: "https://www.ardi.monster",
   },
   name: "Adrián Alcorta Puente",
   nickname: "Ardi",
