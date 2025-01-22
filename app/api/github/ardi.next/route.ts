@@ -1,6 +1,6 @@
 export async function GET() {
   const githubRes = await fetch(
-    "https://api.github.com/repos/ardillan/ardi.land.next"
+    "https://api.github.com/repos/ardillan/ardi-next"
   );
   const github = await githubRes.json();
 
