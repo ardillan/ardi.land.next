@@ -23,7 +23,7 @@ Apenas he escrito en mi blog y no he dedicado tiempo a formarme lo suficiente. M
 
 Pude asistir por primera vez a un **congreso internacional** de desarrollo web en Ütretch (Países Bajos) llamado [Fronteers](https://fronteersconf.org). Una confererencia donde se habló de tipografía fluida, CSS nivel [nigromancia](https://es.wikipedia.org/wiki/Nigromancia), accesibilidad, privacidad y mucho más. Algo de lo que me siento cada vez más orgulloso es de poder hablar en inglés sin ataduras, con la suficiente confianza para equivocarme y que no me preocupe demasiado por ello, quitando esa verguenza a veces incomprensible.
 
-También he tenido la oportunidad de cambiar de teclado. Aunque esto quizá suene raro, en el mundo del desarrollo web hay una gran cantidad de personas que les encanta esto: cambiar _switches_, teclas de colores, crear teclados desde cero... en mi caso, al ser mi primer teclado mecánico que tengo, opté por la compañía Nuphy, con una configuración de 75 teclas. De hecho, [escribí sobre ello](https://ardi.land/blog/nuphy-air-75) hace unos meses.
+También he tenido la oportunidad de cambiar de teclado. Aunque esto quizá suene raro, en el mundo del desarrollo web hay una gran cantidad de personas que les encanta esto: cambiar _switches_, teclas de colores, crear teclados desde cero... en mi caso, al ser mi primer teclado mecánico que tengo, opté por la compañía Nuphy, con una configuración de 75 teclas. De hecho, [escribí sobre ello](https://ardi.monster/blog/nuphy-air-75) hace unos meses.
 
 Por lo demás, afronto este año con energía, mirando de reojo al pasado para no cometer los mismos errores.
 
@@ -79,7 +79,7 @@ En lo que a videojuegos _puro y duro_ se refiere. Estoy muy contento por lo juga
 
 **Inside**, qué puedo decir. Playdead han sabido elevar el listo que dejaron con _Limbo_. Sublime.
 
-**Celeste**, una de las joyas de la corona. Todavía no salgo de mi asombro cómo una puñado de píxeles junto con una banda sonora colosal son capaces de levantar tantas emociones. Escribí una [pequeña nota](https://ardi.land/blog/celeste) en mi blog sobre ello.
+**Celeste**, una de las joyas de la corona. Todavía no salgo de mi asombro cómo una puñado de píxeles junto con una banda sonora colosal son capaces de levantar tantas emociones. Escribí una [pequeña nota](https://ardi.monster/blog/celeste) en mi blog sobre ello.
 
 **Eastward**, otro de los grandes de este año. Ya no sólo por su apartado artístico y sonoro. La historia y la jugabilidad son suficientemente buenas para que las 25 horas que estuve jugando se me pasasen volando.
 
