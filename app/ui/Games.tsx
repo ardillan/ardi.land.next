@@ -22,28 +22,29 @@ const Games = async () => {
         videojuegos.
       </p>
       <ul className={styles.games}>
-        {notionGames !== null &&
-          notionGames.map((game) => {
-            return (
-              <li key={game.id}>
-                <span>{game.title}</span>
-                <span>{game.platform?.map((platform) => platform)}</span>
-                <CustomTooltip
-                  id={game.id}
-                  played={game.played}
-                  content={
-                    game.played
-                      ? `Completado ${
-                          game.finished_on
-                            ? `el ${formatDate(game.finished_on)}`
-                            : ""
-                        }`
-                      : "Sin completar"
-                  }
-                />
-              </li>
-            );
-          })}
+        {notionGames.length > 0
+          ? notionGames.map((game) => {
+              return (
+                <li key={game.id}>
+                  <span>{game.title}</span>
+                  <span>{game.platform?.map((platform) => platform)}</span>
+                  <CustomTooltip
+                    id={game.id}
+                    played={game.played}
+                    content={
+                      game.played
+                        ? `Completado ${
+                            game.finished_on
+                              ? `el ${formatDate(game.finished_on)}`
+                              : ""
+                          }`
+                        : "Sin completar"
+                    }
+                  />
+                </li>
+              );
+            })
+          : null}
       </ul>
     </>
   );
