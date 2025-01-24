@@ -1,30 +1,43 @@
 import React from "react";
 
+import { IGame } from "@/interfaces/IGame";
 import getNotionGames from "@/lib/getGames";
+import { formatDate } from "@/lib/helpers";
 
 import styles from "./Games.module.css";
 import CustomTooltip from "./Tooltip";
 
 const Games = async () => {
-  const notionGames = await getNotionGames();
+  const notionGames: IGame[] = await getNotionGames();
+
+  if (!notionGames) return;
 
   return (
     <>
+      <p>
+        Ahora mismo tengo alrededor de{" "}
+        <strong style={{ color: "rgba(var(--color-honey-yellow))" }}>
+          {notionGames.length}
+        </strong>{" "}
+        videojuegos.
+      </p>
       <ul className={styles.games}>
         {notionGames !== null &&
-          notionGames.results.map((game) => {
+          notionGames.map((game) => {
             return (
               <li key={game.id}>
-                <span>{game.properties["Nombre"].title[0].plain_text}</span>
-                <span>
-                  {game.properties["Plataforma"].multi_select[0].name}
-                </span>
+                <span>{game.title}</span>
+                <span>{game.platform?.map((platform) => platform)}</span>
                 <CustomTooltip
                   id={game.id}
-                  played={game.properties["Jugado"].checkbox ? true : false}
+                  played={game.played}
                   content={
-                    game.properties["Jugado"].checkbox
-                      ? "Completado"
+                    game.played
+                      ? `Completado ${
+                          game.finished_on
+                            ? `el ${formatDate(game.finished_on)}`
+                            : ""
+                        }`
                       : "Sin completar"
                   }
                 />
