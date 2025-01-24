@@ -6,6 +6,11 @@ const getNotionGames = async () => {
     next: { revalidate: 10 },
   });
 
+  if (!notionGamesResponse.ok) {
+    console.error(`Failed to fetch API: ${notionGamesResponse.statusText}`);
+    throw new Error("❌ Error calling Notion Games Data");
+  }
+
   const notionGames = await notionGamesResponse.json();
 
   return notionGames;
