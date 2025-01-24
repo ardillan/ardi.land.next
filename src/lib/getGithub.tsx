@@ -1,8 +1,6 @@
-import { IGitHubRepository } from "@/interfaces/IGitHub";
-
 import { getBaseURL } from "./helpers";
 
-const getGitHub = async (): Promise<IGitHubRepository> => {
+const getGitHub = async () => {
   const baseURL = getBaseURL();
   const githubResponse = await fetch(`${baseURL}/api/github/ardi.next`, {
     next: { revalidate: 120 },

@@ -87,4 +87,4 @@ export function getExperience(birthdateString: string): number {
 }
 
 export const getBaseURL = (): string =>
-  process.env.BASE_URL ?? "https://ardi-land-next.vercel.app";
+  process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
