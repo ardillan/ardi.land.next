@@ -1,0 +1,50 @@
+---
+title: "Indiana Jones y el Gran Círculo"
+subtitle: "Látigos, tumbas y serpientes"
+date: "2025-01-27T23:40:00.0100"
+type: "blog"
+description: "Una aventura en primera persona de Indiana Jones"
+featuredImage: "./indiana-jones-thumb.png"
+category:
+  - Videojuegos
+---
+
+### ¡Es igual que las películas!
+
+O eso es lo que diría si hubiese visto alguna de ellas. Es verdad, **nunca he sido fan de Indiana Jones**. No por nada, más bien porque nunca me llamó especialmente la atención. La referencia más cercana que he tenido ha sido por el juego (qué digo, juegazo) de [Quackshot](https://en.wikipedia.org/wiki/QuackShot), para Megadrive.
+
+Tampoco voy a negarlo, la razón por la que he jugado a este juego es porque estaba incluído en Game Pass. Creo que nunca habría pagado por él...o eso pensaba hasta que lo terminé.
+
+### Doctor Henry Walton "Indiana" Jones Jr.
+
+La principal causa por la que quise probarlo fue debido a que era un juego en primera persona. En su tráiler pude entrever que había un componente de puzzles y exploración, cosa que me encajaba en lo que me apetecía jugar. No me apetecía un _shooter_ al uso.
+
+<div>
+
+![Indiana en el aire](./indiana-jones-01.png)
+
+![Gina, una de las protagonistas](./indiana-jones-02.png)
+
+![Indiana Jones en Guiza](./indiana-jones-03.png)
+
+![Un soldado mirando al cielo](./indiana-jones-04.png)
+
+</div>
+
+Una vez terminado el tutorial, el cual descubrí más tarde que es una recreación de una de sus películas (~~no sé cuál~~ _Raiders of the Lost Ark_), el juego te introduce poco a poco en su trama de una manera tranquila, sin presión. Dejando claro que tú marcas el ritmo. Esto permite que podamos empaparnos del _lore_ mientras disfrutamos de los gráficos, la música, los diágolos y las misiones secundarias.
+
+### En general
+
+No quiero comentar mucho más en esta nota, al fin y al cabo **no es una reseña**. Sí me gustaría decir que me he sorprendido a mí mismo jugando a este juego, quedándome con ganas de ver las películas y recomendánsolo a cualquiera que me pregunte, especialmetne si lo que te apetece es explorar El Vaticano, Guiza, Sukhothai, y algún que otro paraje que no develaré por aquí 😃.
+
+<div>
+
+![Indy y un escorpión](./indiana-jones-05.png)
+
+![Gran Pirámide de Guiza](./indiana-jones-06.png)
+
+![Una vista general del juego](./indiana-jones-07.png)
+
+![Indiana Jones disfrazado](./indiana-jones-08.png)
+
+</div>
