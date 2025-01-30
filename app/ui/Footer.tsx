@@ -13,8 +13,10 @@ const Footer = async () => {
   const getYear = new Date();
   return (
     <footer className={styles.footer}>
-      <p>Esta web está hecha con NextJS</p>
-      <p> {`Ardi Monster ${getYear.getFullYear()}`} </p>
+      <p className={styles.emoji}>🏭</p>
+      <div className={styles.created}>
+        <p>Creado desde la verde y gris Torrelavega</p>
+      </div>
       {githubData != null ? (
         <small>
           Última actualización el {formatDate(githubData.pushed_at)}
@@ -28,7 +30,13 @@ const Footer = async () => {
             <li>{link.title}</li>
           </Link>
         ))}
+        <a href="https://mastodon.social/@ardillan" rel="me">
+          Mastodon
+        </a>
       </ul>
+      <small
+        className={styles.year}
+      >{`Ardi Monster ${getYear.getFullYear()}`}</small>
     </footer>
   );
 };
