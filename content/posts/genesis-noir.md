@@ -23,13 +23,13 @@ No sé cómo le habría sentado otro estilo a **Genesis Noir**. Desde luego, la 
 
 <div>
 
-![Una imagen de Mo con la omnivara](genesis-noir-01.png)
+![No Man y su enemigo, mirando a la luna](genesis-noir-01.png)
 
-![Una de las bestias](genesis-noir-02.png)
+![Una especie de puerta de fuego](genesis-noir-02.png)
 
-![Mo navegando entre islas](genesis-noir-03.png)
+![La muerte con estilo japonés](genesis-noir-03.png)
 
-![Una caverna colorida](genesis-noir-04.png)
+![No man reflexionando](genesis-noir-04.png)
 
 </div>
 
