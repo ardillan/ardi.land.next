@@ -109,8 +109,17 @@ div.code {
 }
 
 .markdownContent > figure {
-  padding: 0;
-  margin: 3rem 0;
+  width: 100vw;
+  max-width: calc(900px + 60px);
+  height: auto;
+  margin-left: -30px;
+
+  @media (max-width: 1024px) {
+    width: 100vw;
+    height: auto;
+    margin-left: 0;
+    max-width: 100%;
+  }
 }
 
 .markdownContent > div > figure {
