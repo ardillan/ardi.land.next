@@ -189,9 +189,9 @@ El resto de cosas podría resumirlo en un listado:
 
 ![Una fachada den Bilbao](./a-link-to-the-past-2024-1.jpeg)
 
-![Las vistas desde mi cama](./a-link-to-the-past-2024-2.jpg)
+![Las vistas desde mi cama](./a-link-to-the-past-2024-2.jpeg)
 
-![La luz entrando en el salón](./a-link-to-the-past-2024-42.jpeg)
+![Una imagen de mi salón y el videojuego TUNIC](./a-link-to-the-past-2024-42.jpeg)
 
 ![Un mirlo](./a-link-to-the-past-2024-4.jpeg)
 
@@ -284,8 +284,6 @@ El resto de cosas podría resumirlo en un listado:
 ![Autorretrato con un gorro de Pikachu](./a-link-to-the-past-2024-40.jpeg)
 
 ![Mi bicicleta: "Mikasuki"](./a-link-to-the-past-2024-41.jpeg)
-
-![Una imagen de mi salón y el videojuego TUNIC](./a-link-to-the-past-2024-42.jpeg)
 
 ![Ensalada](./a-link-to-the-past-2024-43.jpeg)
 
